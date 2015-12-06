@@ -108,7 +108,7 @@ public class TwitterInterface {
 				}
 
 				int cyclelimit = index;
-				for(int cycle = 1; cycle < 4; cycle++)
+				for(int cycle = 1; cycle < cyclelimit; cycle++)
 				{
 
 					int count = 0;
