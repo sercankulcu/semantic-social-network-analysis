@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1449361052090" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="bin/apache-jena-3.0.0/src-examples/jena-examples/src/main/resources/data/pizza.owl.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1449361052090" name="http://www.eswc2006.org/technologies/ontology" uri="bin/apache-jena-3.0.0/src-examples/data/eswc-2006-09-21.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1449361052090" name="http://www.xfront.com/owl/ontologies/camera/" uri="bin/apache-jena-3.0.0/src-examples/data/camera.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1449361052090" name="urn:x-hp-jena:test1" uri="bin/apache-jena-3.0.0/src-examples/data/test1.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1449361052090" name="urn:x-hp-jena:test2" uri="bin/apache-jena-3.0.0/src-examples/data/test2.owl"/>
-    </group>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base=""/>
 </catalog>

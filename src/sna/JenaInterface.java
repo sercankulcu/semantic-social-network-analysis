@@ -9,6 +9,12 @@ import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.ontology.OntProperty;
+import org.apache.jena.query.Query;
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QueryFactory;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.sparql.vocabulary.FOAF;
@@ -65,9 +71,58 @@ public class JenaInterface {
 
 		from.addProperty(FOAF.knows, to);
 		from.addProperty(SKOS.related, to);
-		from.addProperty(inDegree, "3");
-		from.addProperty(outDegree, "3");
+		
+		//from.addProperty(inDegree, "3");
+		//from.addProperty(outDegree, "3");
 		from.addProperty(hasFollower, to);
+	}
+	
+	public void calculateInDegree(String id) {
+		
+		String queryString = 
+				"PREFIX ssna: <http://sercan.com/semweb/>" + 
+					"SELECT ( COUNT (?subject) AS ?howmany ) WHERE { ?subject ssna:hasFollower ssna:" +  id + " }";
+		
+		Query query = QueryFactory.create(queryString);
+		QueryExecution qexec = QueryExecutionFactory.create(query, model);
+
+		try {
+
+			ResultSet results = qexec.execSelect();
+		    for (; results.hasNext();) {
+		        QuerySolution s = results.nextSolution();
+		        System.out.println(s.toString());
+		    }
+		}
+		finally {
+
+		   qexec.close();
+		}
+		
+	}
+	
+	public void calculateOutDegree(String id) {
+		
+		String queryString = 
+				"PREFIX ssna: <http://sercan.com/semweb/>" + 
+					"SELECT ( COUNT (?object) AS ?howmany ) WHERE { "+ id + " ssna:hasFollower ?object }";
+		
+		Query query = QueryFactory.create(queryString);
+		QueryExecution qexec = QueryExecutionFactory.create(query, model);
+
+		try {
+
+			ResultSet results = qexec.execSelect();
+		    for (; results.hasNext();) {
+		        QuerySolution s = results.nextSolution();
+		        System.out.println(s.toString());
+		    }
+		}
+		finally {
+
+		   qexec.close();
+		}
+		
 	}
 
 	public void save() {

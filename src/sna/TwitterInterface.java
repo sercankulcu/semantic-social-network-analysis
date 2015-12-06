@@ -106,9 +106,9 @@ public class TwitterInterface {
 					}
 					// jena interface add resource userid, id , property userid->id 
 				}
-
+				
 				int cyclelimit = index;
-				for(int cycle = 1; cycle < cyclelimit; cycle++)
+				for(int cycle = 1; cycle < 4; cycle++)
 				{
 
 					int count = 0;
@@ -194,8 +194,12 @@ public class TwitterInterface {
 					//{id: 1, label: 'Abdelmoumene Djabou'},
 					writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("webroot/dist/network.js"), "utf-8"));
 					writer.write("var nodes = [" + "\n");
-					for(i = 0; i < nodes.size() - 1; i++)
+					for(i = 0; i < nodes.size() - 1; i++) {
+						
 						writer.write("{id: " + i + ",label: '" + nodes.get(i) + "'},\n");
+						jenaInt.calculateInDegree(Long.toString(nodes.get(i)));
+
+					}
 					if(nodes.size() > 0)
 						writer.write("{id: " + i + ",label: '" + nodes.get(i) + "'}\n");
 					writer.write("];" + "\n");
