@@ -22,6 +22,16 @@ import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.SKOS;
+import org.apache.jena.vocabulary.XSD;
+
+import edu.uci.ics.jung.algorithms.scoring.BarycenterScorer;
+import edu.uci.ics.jung.algorithms.scoring.ClosenessCentrality;
+import edu.uci.ics.jung.algorithms.scoring.DegreeScorer;
+import edu.uci.ics.jung.algorithms.scoring.DistanceCentralityScorer;
+import edu.uci.ics.jung.algorithms.scoring.EigenvectorCentrality;
+import edu.uci.ics.jung.algorithms.scoring.HITS;
+import edu.uci.ics.jung.algorithms.scoring.PageRank;
+import edu.uci.ics.jung.algorithms.scoring.HITS.Scores;
 
 public class JenaInterface {
 
@@ -31,8 +41,17 @@ public class JenaInterface {
 	
 	OntClass classPerson = model.createClass( NS + "Person" );
 	
-	OntProperty inDegree = model.createDatatypeProperty( NS + "inDegree" );
-	OntProperty outDegree = model.createDatatypeProperty( NS + "outDegree" );
+	OntProperty hasInDegreeValue = model.createDatatypeProperty( NS + "hasInDegreeValue" );
+	OntProperty hasOutDegreeValue = model.createDatatypeProperty( NS + "hasOutDegreeValue" );
+	OntProperty hasDegreeValue = model.createDatatypeProperty( NS + "hasDegreeValue" );
+	OntProperty hasBetweennessCentralityValue = model.createDatatypeProperty( NS + "hasBetweennessCentralityValue" );
+	OntProperty hasClosenessCentralityValue = model.createDatatypeProperty( NS + "hasClosenessCentralityValue" );
+	OntProperty hasEigenvectorCentralityValue = model.createDatatypeProperty( NS + "hasEigenvectorCentralityValue" );
+	OntProperty hasPageRankValue = model.createDatatypeProperty( NS + "hasPageRankValue" );
+	OntProperty hasBaryCentralityValue = model.createDatatypeProperty( NS + "hasBaryCentralityValue" );
+	OntProperty hasDistanceCentralityValue = model.createDatatypeProperty( NS + "hasDistanceCentralityValue" );
+	OntProperty hasHITSValue = model.createDatatypeProperty( NS + "hasHITSValue" );
+	
 	OntProperty hasFollower = model.createObjectProperty( NS + "hasFollower" );
 	
 	private int index = 0;
@@ -43,11 +62,27 @@ public class JenaInterface {
 		model.setNsPrefix("foaf", "http://xmlns.com/foaf/0.1/");
 		model.setNsPrefix("skos", "http://www.w3.org/2004/02/skos/core#");
 		
-		inDegree.addDomain(classPerson);
-		outDegree.addDomain(classPerson);
+		hasInDegreeValue.addDomain(classPerson);
+		hasOutDegreeValue.addDomain(classPerson);
+		hasDegreeValue.addDomain(classPerson);
+		hasBetweennessCentralityValue.addDomain(classPerson);
+		hasClosenessCentralityValue.addDomain(classPerson);
+		hasEigenvectorCentralityValue.addDomain(classPerson);
+		hasPageRankValue.addDomain(classPerson);
+		hasBaryCentralityValue.addDomain(classPerson);
+		hasDistanceCentralityValue.addDomain(classPerson);
+		hasHITSValue.addDomain(classPerson);
 		
-		inDegree.addRange(RDFS.Literal);
-		outDegree.addRange(RDFS.Literal);
+		hasInDegreeValue.addRange(XSD.nonNegativeInteger);
+		hasOutDegreeValue.addRange(XSD.nonNegativeInteger);
+		hasDegreeValue.addRange(XSD.nonNegativeInteger);
+		hasBetweennessCentralityValue.addRange(XSD.xdouble);
+		hasClosenessCentralityValue.addRange(XSD.xdouble);
+		hasEigenvectorCentralityValue.addRange(XSD.xdouble);
+		hasPageRankValue.addRange(XSD.xdouble);
+		hasBaryCentralityValue.addRange(XSD.xdouble);
+		hasDistanceCentralityValue.addRange(XSD.xdouble);
+		hasHITSValue.addRange(XSD.xdouble);
 		
 		hasFollower.addDomain(classPerson);
 		hasFollower.addRange(classPerson);
@@ -71,10 +106,10 @@ public class JenaInterface {
 
 		from.addProperty(FOAF.knows, to);
 		from.addProperty(SKOS.related, to);
-		
-		//from.addProperty(inDegree, "3");
-		//from.addProperty(outDegree, "3");
 		from.addProperty(hasFollower, to);
+		//from.addProperty(hasBetweennessCentralityValue, "0.87");
+		
+		from.addLiteral(hasBetweennessCentralityValue, 0.87);
 	}
 	
 	public void calculateInDegree(String id) {
@@ -122,7 +157,6 @@ public class JenaInterface {
 
 		   qexec.close();
 		}
-		
 	}
 
 	public void save() {

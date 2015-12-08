@@ -10,6 +10,17 @@ import java.util.List;
 
 import org.apache.jena.rdf.model.Resource;
 
+import edu.uci.ics.jung.algorithms.scoring.BarycenterScorer;
+import edu.uci.ics.jung.algorithms.scoring.BetweennessCentrality;
+import edu.uci.ics.jung.algorithms.scoring.ClosenessCentrality;
+import edu.uci.ics.jung.algorithms.scoring.DegreeScorer;
+import edu.uci.ics.jung.algorithms.scoring.DistanceCentralityScorer;
+import edu.uci.ics.jung.algorithms.scoring.EigenvectorCentrality;
+import edu.uci.ics.jung.algorithms.scoring.HITS;
+import edu.uci.ics.jung.algorithms.scoring.HITS.Scores;
+import edu.uci.ics.jung.algorithms.scoring.PageRank;
+import edu.uci.ics.jung.graph.DirectedSparseGraph;
+import edu.uci.ics.jung.graph.Graph;
 import twitter4j.IDs;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -21,8 +32,8 @@ public class TwitterInterface {
 	private JenaInterface jenaInt = new JenaInterface();
 	private String screenName = "skulcu";
 	private List<Long> nodes = new ArrayList<Long>();
-	private List<Integer> edgesfrom = new ArrayList<Integer>();
-	private List<Integer> edgesto = new ArrayList<Integer>();
+	private List<Long> edgesfrom = new ArrayList<Long>();
+	private List<Long> edgesto = new ArrayList<Long>();
 	private List<Resource> resources = new ArrayList<Resource>();
 
 	public int getIndex(long id) {
@@ -101,8 +112,8 @@ public class TwitterInterface {
 						jenaInt.addPropertyToRDF(res, res2);
 						nodes.add(followerID[index]);
 						resources.add(res2);
-						edgesfrom.add(0);
-						edgesto.add(index);
+						edgesfrom.add(Long.valueOf(0));
+						edgesto.add(Long.valueOf(index));
 					}
 					// jena interface add resource userid, id , property userid->id 
 				}
@@ -132,8 +143,8 @@ public class TwitterInterface {
 
 								nodes.add(followerID[index2]);
 								resources.add(res2);
-								edgesfrom.add(cycle);
-								edgesto.add(index);
+								edgesfrom.add(Long.valueOf(cycle));
+								edgesto.add(Long.valueOf(index));
 								// jena interface add resource userid, id , property userid->id
 								
 								if (count++ > 100) {
@@ -144,8 +155,8 @@ public class TwitterInterface {
 							else {
 							
 								jenaInt.addPropertyToRDF(resources.get(cycle), resources.get(result));
-								edgesfrom.add(cycle);
-								edgesto.add(result);
+								edgesfrom.add(Long.valueOf(cycle));
+								edgesto.add(Long.valueOf(result));
 							}
 							
 							
@@ -158,12 +169,14 @@ public class TwitterInterface {
 						//System.exit(-1);
 					}
 					
+					/*
 					try {
 						Thread.sleep(60000);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
+					*/
 					jenaInt.save();
 				}
 				/*
@@ -188,16 +201,20 @@ public class TwitterInterface {
 
 				/*JSON*/
 				Writer writer = null;
+				
+				Graph<Long, Integer> g = new DirectedSparseGraph<Long, Integer>();
 
 				try {
+					
 					int i = 0;
-					//{id: 1, label: 'Abdelmoumene Djabou'},
 					writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("webroot/dist/network.js"), "utf-8"));
 					writer.write("var nodes = [" + "\n");
 					for(i = 0; i < nodes.size() - 1; i++) {
 						
 						writer.write("{id: " + i + ",label: '" + nodes.get(i) + "'},\n");
-						jenaInt.calculateInDegree(Long.toString(nodes.get(i)));
+						g.addVertex(nodes.get(i));
+						//System.out.println("first vertex count " + g.getVertexCount() + " node size " + nodes.size() + " edgesfrom size " + edgesfrom.size());
+						//jenaInt.calculateInDegree(Long.toString(nodes.get(i)));
 
 					}
 					if(nodes.size() > 0)
@@ -205,8 +222,11 @@ public class TwitterInterface {
 					writer.write("];" + "\n");
 
 					writer.write("var edges = [" + "\n");
-					for(i = 0; i < edgesfrom.size() - 1; i++)
+					for(i = 0; i < edgesfrom.size() - 1; i++) {
+						
 						writer.write("{from: " + edgesfrom.get(i) + ", to: " + edgesto.get(i) + "},\n");
+						g.addEdge(i, edgesfrom.get(i), edgesto.get(i));
+					}
 					if(nodes.size() > 0)
 						writer.write("{from: " + edgesfrom.get(i) + ", to: " + edgesto.get(i) + "}\n");
 					writer.write("];" + "\n");
@@ -216,6 +236,78 @@ public class TwitterInterface {
 				} finally {
 					try {writer.close();} catch (Exception ex) {/*ignore*/}
 				}
+				
+				System.out.println("first vertex count " + g.getVertexCount() + " node size " + nodes.size() + " edgesfrom size " + edgesfrom.size());
+				
+				BetweennessCentrality<Long, Integer> bc = new BetweennessCentrality<Long, Integer>(g);
+				for (Long v : g.getVertices()) {
+					if(bc.getVertexScore(v) > 0)
+						System.out.println("BetweennessCentrality for\t" + v + "\t" + bc.getVertexScore(v));
+				}
+				
+				System.out.println("beetween vertex count " + g.getVertexCount());
+				
+				ClosenessCentrality<Long, Integer> cc = new ClosenessCentrality<Long, Integer>(g);
+				for (Long v : g.getVertices()) {
+					if(cc.getVertexScore(v) > 0)
+						System.out.println("ClosenessCentrality for\t" + v + "\t" + cc.getVertexScore(v));
+				}
+				
+				System.out.println("closeness vertex count " + g.getVertexCount());
+				
+				EigenvectorCentrality<Long, Integer> ec = new EigenvectorCentrality<Long, Integer>(g);
+				//ec.initialize();
+				ec.acceptDisconnectedGraph(true);
+				ec.evaluate();
+				for (Long v : g.getVertices()) {
+					if(ec.getVertexScore(v) > 0.0005)
+						System.out.println("EigenvectorCentrality for\t" + v + "\t" + ec.getVertexScore(v));
+				}
+				
+				System.out.println("eigenve vertex count " + g.getVertexCount());
+				
+				
+				PageRank<Long, Integer> pr = new PageRank<Long, Integer>(g, 0.8);
+				pr.evaluate();
+				for (Long v : g.getVertices()) {
+					if(pr.getVertexScore(v) > 0)
+						System.out.println("PageRank for\t" + v + "\t" + pr.getVertexScore(v));
+				}
+				
+				BarycenterScorer<Long, Integer> bs = new BarycenterScorer<Long, Integer>(g);
+				for (Long v : g.getVertices()) {
+					if(bs.getVertexScore(v) > 0)
+						System.out.println("BarycenterScorer for\t" + v + "\t" + bs.getVertexScore(v));
+				}
+				
+				
+				DegreeScorer<Long> ds = new DegreeScorer<Long>(g);
+				for (Long v : g.getVertices()) {
+					if(ds.getVertexScore(v) > 1)
+						System.out.println("DegreeScorer for\t" + v + "\t" + ds.getVertexScore(v));
+				}
+				
+				System.out.println("degre vertex count " + g.getVertexCount());
+				
+				DistanceCentralityScorer<Long, Integer> dcs = new DistanceCentralityScorer<Long, Integer>(g, false);
+				for (Long v : g.getVertices()) {
+					if(dcs.getVertexScore(v) < 1)
+						System.out.println("DistanceCentralityScorer for\t" + v + "\t" + dcs.getVertexScore(v));
+				}
+				
+				System.out.println("distance vertex count " + g.getVertexCount());
+				
+				HITS<Long, Integer> hits = new HITS<Long, Integer>(g);
+				hits.initialize();
+				hits.evaluate();
+				
+				for (Long v : g.getVertices()) {
+					Scores s = hits.getVertexScore(v);	
+					if(s.hub > 0.0029)
+						System.out.println("hits for\t" + v + "\t" + s.hub);
+				}
+				
+				System.out.println("hits vertex count " + g.getVertexCount());
 
 			} while (/*(cursor = ids.getNextCursor()) != 0*/ false);
 

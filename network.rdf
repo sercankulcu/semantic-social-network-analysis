@@ -6,13 +6,6 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
-  <rdf:Description rdf:about="http://sercan.com/semweb/4219184538">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4219184538</rdfs:label>
-    <owl:hasValue>182</owl:hasValue>
-    <foaf:accountName>4219184538</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1379127667">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1379127667</rdfs:label>
@@ -30,14 +23,14 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/3153214059">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3153214059</rdfs:label>
-    <owl:hasValue>276</owl:hasValue>
+    <owl:hasValue>282</owl:hasValue>
     <foaf:accountName>3153214059</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2573437319">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2573437319</rdfs:label>
-    <owl:hasValue>295</owl:hasValue>
+    <owl:hasValue>301</owl:hasValue>
     <foaf:accountName>2573437319</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -48,11 +41,11 @@
     <foaf:accountName>2274663863</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4346626588">
+  <rdf:Description rdf:about="http://sercan.com/semweb/1403105736">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>4346626588</rdfs:label>
-    <owl:hasValue>150</owl:hasValue>
-    <foaf:accountName>4346626588</foaf:accountName>
+    <rdfs:label>1403105736</rdfs:label>
+    <owl:hasValue>157</owl:hasValue>
+    <foaf:accountName>1403105736</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/185260873">
@@ -69,6 +62,20 @@
     <foaf:accountName>329846108</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/4406930861">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>4406930861</rdfs:label>
+    <owl:hasValue>117</owl:hasValue>
+    <foaf:accountName>4406930861</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3561762014">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3561762014</rdfs:label>
+    <owl:hasValue>146</owl:hasValue>
+    <foaf:accountName>3561762014</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1896843529">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1896843529</rdfs:label>
@@ -79,7 +86,7 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/2378499680">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2378499680</rdfs:label>
-    <owl:hasValue>257</owl:hasValue>
+    <owl:hasValue>263</owl:hasValue>
     <foaf:accountName>2378499680</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -90,18 +97,16 @@
     <foaf:accountName>224030656</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2610986130">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2610986130</rdfs:label>
-    <owl:hasValue>161</owl:hasValue>
-    <foaf:accountName>2610986130</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  <rdf:Description rdf:about="http://sercan.com/semweb/hasEigenvectorCentralityValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4395309563">
+  <rdf:Description rdf:about="http://sercan.com/semweb/264914396">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>4395309563</rdfs:label>
-    <owl:hasValue>171</owl:hasValue>
-    <foaf:accountName>4395309563</foaf:accountName>
+    <rdfs:label>264914396</rdfs:label>
+    <owl:hasValue>122</owl:hasValue>
+    <foaf:accountName>264914396</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/hasFollower">
@@ -109,25 +114,32 @@
     <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2232393771">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4496476518">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2232393771</rdfs:label>
-    <owl:hasValue>175</owl:hasValue>
-    <foaf:accountName>2232393771</foaf:accountName>
+    <rdfs:label>4496476518</rdfs:label>
+    <owl:hasValue>103</owl:hasValue>
+    <foaf:accountName>4496476518</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/831214964">
     <rdf:type>Person</rdf:type>
     <rdfs:label>831214964</rdfs:label>
-    <owl:hasValue>291</owl:hasValue>
+    <owl:hasValue>297</owl:hasValue>
     <foaf:accountName>831214964</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2863660958">
+  <rdf:Description rdf:about="http://sercan.com/semweb/420490172">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2863660958</rdfs:label>
-    <owl:hasValue>151</owl:hasValue>
-    <foaf:accountName>2863660958</foaf:accountName>
+    <rdfs:label>420490172</rdfs:label>
+    <owl:hasValue>171</owl:hasValue>
+    <foaf:accountName>420490172</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/381372764">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>381372764</rdfs:label>
+    <owl:hasValue>173</owl:hasValue>
+    <foaf:accountName>381372764</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/128029149">
@@ -144,33 +156,59 @@
     <foaf:accountName>323073777</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2891077512">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2891077512</rdfs:label>
+    <owl:hasValue>107</owl:hasValue>
+    <foaf:accountName>2891077512</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/4365169876">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>4365169876</rdfs:label>
+    <owl:hasValue>176</owl:hasValue>
+    <foaf:accountName>4365169876</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/335231849">
     <rdf:type>Person</rdf:type>
     <rdfs:label>335231849</rdfs:label>
-    <owl:hasValue>209</owl:hasValue>
+    <owl:hasValue>217</owl:hasValue>
     <foaf:accountName>335231849</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2232265164">
+  <rdf:Description rdf:about="http://sercan.com/semweb/1531782758">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2232265164</rdfs:label>
-    <owl:hasValue>174</owl:hasValue>
-    <foaf:accountName>2232265164</foaf:accountName>
+    <rdfs:label>1531782758</rdfs:label>
+    <owl:hasValue>165</owl:hasValue>
+    <foaf:accountName>1531782758</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/394106480">
     <rdf:type>Person</rdf:type>
     <rdfs:label>394106480</rdfs:label>
-    <owl:hasValue>234</owl:hasValue>
+    <owl:hasValue>240</owl:hasValue>
     <foaf:accountName>394106480</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/561974124">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3414553731">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>561974124</rdfs:label>
-    <owl:hasValue>118</owl:hasValue>
-    <foaf:accountName>561974124</foaf:accountName>
+    <rdfs:label>3414553731</rdfs:label>
+    <owl:hasValue>189</owl:hasValue>
+    <foaf:accountName>3414553731</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2338413816">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2338413816</rdfs:label>
+    <owl:hasValue>136</owl:hasValue>
+    <foaf:accountName>2338413816</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/hasBetweennessCentralityValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/878227934">
     <rdf:type>Person</rdf:type>
@@ -179,32 +217,25 @@
     <foaf:accountName>878227934</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2150921547">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3315661741">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2150921547</rdfs:label>
-    <owl:hasValue>168</owl:hasValue>
-    <foaf:accountName>2150921547</foaf:accountName>
+    <rdfs:label>3315661741</rdfs:label>
+    <owl:hasValue>125</owl:hasValue>
+    <foaf:accountName>3315661741</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3903940706">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4017849929">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>3903940706</rdfs:label>
-    <owl:hasValue>192</owl:hasValue>
-    <foaf:accountName>3903940706</foaf:accountName>
+    <rdfs:label>4017849929</rdfs:label>
+    <owl:hasValue>100</owl:hasValue>
+    <foaf:accountName>4017849929</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3078494622">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3160611098">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>3078494622</rdfs:label>
-    <owl:hasValue>154</owl:hasValue>
-    <foaf:accountName>3078494622</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2610344748">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2610344748</rdfs:label>
-    <owl:hasValue>296</owl:hasValue>
-    <foaf:accountName>2610344748</foaf:accountName>
+    <rdfs:label>3160611098</rdfs:label>
+    <owl:hasValue>138</owl:hasValue>
+    <foaf:accountName>3160611098</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/142643766">
@@ -214,39 +245,74 @@
     <foaf:accountName>142643766</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2945786323">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2945786323</rdfs:label>
+    <owl:hasValue>185</owl:hasValue>
+    <foaf:accountName>2945786323</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3342493449">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3342493449</rdfs:label>
+    <owl:hasValue>154</owl:hasValue>
+    <foaf:accountName>3342493449</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/1288559520">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>1288559520</rdfs:label>
+    <owl:hasValue>141</owl:hasValue>
+    <foaf:accountName>1288559520</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2815326095">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2815326095</rdfs:label>
-    <owl:hasValue>280</owl:hasValue>
+    <owl:hasValue>286</owl:hasValue>
     <foaf:accountName>2815326095</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1262735570">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1262735570</rdfs:label>
-    <owl:hasValue>286</owl:hasValue>
+    <owl:hasValue>292</owl:hasValue>
     <foaf:accountName>1262735570</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3240746784">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3240746784</rdfs:label>
+    <owl:hasValue>169</owl:hasValue>
+    <foaf:accountName>3240746784</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/4243579265">
     <rdf:type>Person</rdf:type>
     <rdfs:label>4243579265</rdfs:label>
-    <owl:hasValue>225</owl:hasValue>
+    <owl:hasValue>232</owl:hasValue>
     <foaf:accountName>4243579265</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/4493065160">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>4493065160</rdfs:label>
+    <owl:hasValue>119</owl:hasValue>
+    <foaf:accountName>4493065160</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2312202852">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2312202852</rdfs:label>
+    <owl:hasValue>124</owl:hasValue>
+    <foaf:accountName>2312202852</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3298920947">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3298920947</rdfs:label>
-    <owl:hasValue>228</owl:hasValue>
+    <owl:hasValue>235</owl:hasValue>
     <foaf:accountName>3298920947</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4375829015">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4375829015</rdfs:label>
-    <owl:hasValue>122</owl:hasValue>
-    <foaf:accountName>4375829015</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2794728840">
@@ -259,29 +325,15 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/1159873675">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1159873675</rdfs:label>
-    <owl:hasValue>211</owl:hasValue>
+    <owl:hasValue>219</owl:hasValue>
     <foaf:accountName>1159873675</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3722948834">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3722948834</rdfs:label>
-    <owl:hasValue>191</owl:hasValue>
-    <foaf:accountName>3722948834</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2466014960">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2466014960</rdfs:label>
-    <owl:hasValue>238</owl:hasValue>
+    <owl:hasValue>244</owl:hasValue>
     <foaf:accountName>2466014960</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1047303152">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>1047303152</rdfs:label>
-    <owl:hasValue>59</owl:hasValue>
-    <foaf:accountName>1047303152</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/517874735">
@@ -291,18 +343,18 @@
     <foaf:accountName>517874735</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/1047303152">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>1047303152</rdfs:label>
+    <owl:hasValue>59</owl:hasValue>
+    <foaf:accountName>1047303152</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/93616754">
     <rdf:type>Person</rdf:type>
     <rdfs:label>93616754</rdfs:label>
     <owl:hasValue>75</owl:hasValue>
     <foaf:accountName>93616754</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/324347879">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>324347879</rdfs:label>
-    <owl:hasValue>101</owl:hasValue>
-    <foaf:accountName>324347879</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1185432906">
@@ -315,8 +367,15 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/4236780227">
     <rdf:type>Person</rdf:type>
     <rdfs:label>4236780227</rdfs:label>
-    <owl:hasValue>244</owl:hasValue>
+    <owl:hasValue>250</owl:hasValue>
     <foaf:accountName>4236780227</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2334080430">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2334080430</rdfs:label>
+    <owl:hasValue>200</owl:hasValue>
+    <foaf:accountName>2334080430</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1274786815">
@@ -326,20 +385,6 @@
     <foaf:accountName>1274786815</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4040708981">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4040708981</rdfs:label>
-    <owl:hasValue>185</owl:hasValue>
-    <foaf:accountName>4040708981</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3817435005">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3817435005</rdfs:label>
-    <owl:hasValue>178</owl:hasValue>
-    <foaf:accountName>3817435005</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/564120734">
     <rdf:type>Person</rdf:type>
     <rdfs:label>564120734</rdfs:label>
@@ -347,38 +392,24 @@
     <foaf:accountName>564120734</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2149055806">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3979574893">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2149055806</rdfs:label>
-    <owl:hasValue>181</owl:hasValue>
-    <foaf:accountName>2149055806</foaf:accountName>
+    <rdfs:label>3979574893</rdfs:label>
+    <owl:hasValue>139</owl:hasValue>
+    <foaf:accountName>3979574893</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/52662717">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4413735933">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>52662717</rdfs:label>
-    <owl:hasValue>132</owl:hasValue>
-    <foaf:accountName>52662717</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2266432643">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2266432643</rdfs:label>
-    <owl:hasValue>193</owl:hasValue>
-    <foaf:accountName>2266432643</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3259255308">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3259255308</rdfs:label>
-    <owl:hasValue>126</owl:hasValue>
-    <foaf:accountName>3259255308</foaf:accountName>
+    <rdfs:label>4413735933</rdfs:label>
+    <owl:hasValue>113</owl:hasValue>
+    <foaf:accountName>4413735933</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3335633692">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3335633692</rdfs:label>
-    <owl:hasValue>262</owl:hasValue>
+    <owl:hasValue>268</owl:hasValue>
     <foaf:accountName>3335633692</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -389,325 +420,326 @@
     <foaf:accountName>520989136</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1159478906">
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3738030980"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4374621497"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/376689772"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/52662717"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/231346583"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3613566759"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4395309563"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2266432643"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3332982027"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3953685395"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/187219409"/>
-    <owl:hasValue>2</owl:hasValue>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1150162736"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4340955160"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2541199250"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2995871015"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3903940706"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2350852173"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4396368291"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4466705174"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3738030980"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3903940706"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2863660958"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/1116019093"/>
-    <rdf:type>Person</rdf:type>
-    <skos:related rdf:resource="http://sercan.com/semweb/3738030980"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/231346583"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4350075436"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4114932556"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2266432643"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/215758514"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/129909263"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4395653836"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/1116019093"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/561974124"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3297904213"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/1240589378"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4375829015"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4346626588"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4154385873"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4396840353"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4122363041"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4040708981"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2933151697"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2269089918"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/324347879"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/65098935"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/401159219"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/187219409"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4300284381"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/575820589"/>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2610986130"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1697263256"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3460369997"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/65098935"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4466705174"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2266432643"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2470826117"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4259021069"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2975443662"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/495771052"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2880287699"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/82840491"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2198549842"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3078494622"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/324881725"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2232265164"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3332982027"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3722948834"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3953685395"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4248078914"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2541199250"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4248078914"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2731155323"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4114932556"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4404787692"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4393275267"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2192718193"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/27360959"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/65098935"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4219184538"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4386217954"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4375829015"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2232265164"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4374621497"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2998972899"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4358240892"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2232393771"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4300284381"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4372059797"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/353875367"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1708210868"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/705970219"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4393275267"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/219122896"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3788867412"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2470826117"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2610986130"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4396840353"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2190350638"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/50205840"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4358240892"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4372059797"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3722948834"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4219184538"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/324881725"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3076185874"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4404787692"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4478407460"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4395653836"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4122363041"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4396840353"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3146308849"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3061679679"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3613566759"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/1186316647"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3378736319"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2615629696"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2541199250"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/82840491"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2975443662"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2192718193"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2677214248"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/219122896"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4375829015"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4391536934"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2190350638"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3061679679"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3259255308"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4219184538"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4395309563"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4248078914"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3259255308"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4390076537"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4340955160"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4478407460"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4122363041"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/705970219"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/82840491"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2880287699"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2149055806"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2350852173"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2880287699"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/1607110843"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4139653875"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/353875367"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/324347879"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4139653875"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2190350638"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2933151697"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3903940706"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4396368291"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3088842999"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3088842999"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2192718193"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/549367469"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/401159219"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/52662717"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3817435005"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3378736319"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2150921547"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/128494113"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4350075436"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4393275267"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/549367469"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4154385873"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3146308849"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/27360959"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3007380247"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4390076537"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3722948834"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/52662717"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/27360959"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/231346583"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/1708210868"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2149055806"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/1240589378"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/1607110843"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3953685395"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3613566759"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4139653875"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4466705174"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4154385873"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1116019093"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2998972899"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1607110843"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4391536934"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2995871015"/>
-    <foaf:accountName>1159478906</foaf:accountName>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4390076537"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3146308849"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/495771052"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4259021069"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4259021069"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2150921547"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2150921547"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3297904213"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2975443662"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3078494622"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3078494622"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/495771052"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/129909263"/>
-    <rdfs:label>1159478906</rdfs:label>
-    <skos:related rdf:resource="http://sercan.com/semweb/215758514"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2232393771"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/20793123"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4478407460"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/1150162736"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4114932556"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/1697263256"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/215758514"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3460369997"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4350075436"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/575820589"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2198549842"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2863660958"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3460369997"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2269089918"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/324881725"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3817435005"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4346626588"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2615629696"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/20793123"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2863660958"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3667134083"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4395653836"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/1708210868"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4374621497"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2269089918"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4404787692"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/129909263"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/1697263256"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3788867412"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3088842999"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/1186316647"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4386217954"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1186316647"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4391536934"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/187219409"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/353875367"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4396368291"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3332982027"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3317180906"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2942233591"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/549367469"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3076185874"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3076185874"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2198549842"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4040708981"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2843817819"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/128494113"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3223006459"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3317180906"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2995871015"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3223006459"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2470826117"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/561974124"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2677214248"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2933151697"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4372059797"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/1150162736"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2350852173"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2149055806"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/575820589"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4346626588"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/50205840"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3788867412"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3297904213"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3667134083"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3259255308"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2942233591"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2731155323"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/376689772"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4340955160"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1240589378"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/219122896"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3061679679"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3223006459"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2731155323"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2364901622"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3007380247"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/324347879"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2232393771"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2364901622"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/50205840"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/20793123"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/705970219"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3378736319"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3007380247"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2610986130"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4040708981"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3667134083"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2942233591"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2232265164"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/376689772"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/561974124"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2843817819"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4300284381"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2998972899"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4386217954"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2843817819"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/401159219"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2615629696"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/128494113"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4358240892"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3817435005"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2364901622"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/3317180906"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2677214248"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4395309563"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/141725336">
     <rdf:type>Person</rdf:type>
     <rdfs:label>141725336</rdfs:label>
     <owl:hasValue>28</owl:hasValue>
     <foaf:accountName>141725336</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/1159478906">
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4313734036"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/561304480"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2578441764"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2449320336"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3160611098"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4406930861"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3014574041"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/381372764"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4046570008"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2555049320"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3214535625"/>
+    <owl:hasValue>2</owl:hasValue>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3240746784"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3242836880"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/967745395"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4413735933"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2761251066"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2861010016"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3561762014"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2929665976"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/484694062"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2188291552"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4372748835"/>
+    <rdf:type>Person</rdf:type>
+    <skos:related rdf:resource="http://sercan.com/semweb/3242836880"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1357544258"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3100443329"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2893697372"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3435393514"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/959699293"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1531782758"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/984442290"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2265356065"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1403105736"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4383735673"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/317378810"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3899802973"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4461476232"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4313734036"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/317378810"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3100443329"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4017849929"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3297492071"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2891077512"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/823376412"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4017849929"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/319543975"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1531782758"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4352780187"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3067131032"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/324925496"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1653192271"/>
+    <ssna:hasBetweennessCentralityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.87</ssna:hasBetweennessCentralityValue>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3561762014"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1384391514"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4403315772"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3366767746"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3366767746"/>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4322585232"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2945786323"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1099041211"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3285648622"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1528653836"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4404140115"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4054150096"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1088760524"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1451246322"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3414553731"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4322585232"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3160611098"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/264914396"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/984442290"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3067131032"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4372748835"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/483796292"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3315661741"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4383735673"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1175334252"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4431630619"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4403315772"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3736057695"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4221894433"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3100443329"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4017849929"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4398173056"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/319543975"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/48079978"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4224537621"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3979574893"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3297492071"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4496476518"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3899802973"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/397701052"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2861010016"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4365169876"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3435393514"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3949300816"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4352780187"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/484694062"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3931671436"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1288559520"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4313734036"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3342493449"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/420490172"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4404140115"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4216618348"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2893697372"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3342493449"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/264914396"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2312202852"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4372748835"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2346777179"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/925084536"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1653192271"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1451246322"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3931671436"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3010524888"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4431630619"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1175334252"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2569538971"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2346777179"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3366767746"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/317378810"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/245192045"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2945786323"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1062443863"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3023136063"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1357544258"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1062443863"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4410094461"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/561304480"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3435393514"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2826980990"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4229365994"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4224537621"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2569538971"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3160611098"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1099041211"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2761251066"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3949300816"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2608755990"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4398173056"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4321115058"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2608755990"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/484694062"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2338413816"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4175551708"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4493065160"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2643017411"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4461476232"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/483796292"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2643017411"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3285648622"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3949300816"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2569538971"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3236334379"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3236334379"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2188291552"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3285648622"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4404140115"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4229365994"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3979574893"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/959699293"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4221894433"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4221894433"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/749866532"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1288559520"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1357544258"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/319543975"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4493065160"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/967745395"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3268725254"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1528653836"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/925084536"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4410094461"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1088760524"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4413735933"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4413735933"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4175551708"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2894303279"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4496476518"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3736057695"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2978528997"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2978528997"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4493065160"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3931671436"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4046570008"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4322585232"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3236334379"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4224537621"/>
+    <foaf:accountName>1159478906</foaf:accountName>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2312202852"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1403105736"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/381372764"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2265356065"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3242836880"/>
+    <rdfs:label>1159478906</rdfs:label>
+    <skos:related rdf:resource="http://sercan.com/semweb/2449320336"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4046570008"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2856980616"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1403105736"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4054150096"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4398173056"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1062443863"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2893697372"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2312202852"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4352780187"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2555049320"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/984442290"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2608755990"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4175551708"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3023136063"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/491158969"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/749866532"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3736057695"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2578441764"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/959699293"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3342493449"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3214535625"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4410094461"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1384391514"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/48079978"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/324925496"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4406930861"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3167508842"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2578441764"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/397701052"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3214535625"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4321115058"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1288559520"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3268725254"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/925084536"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1088760524"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/420490172"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3010524888"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2929665976"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2856980616"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3014574041"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/823376412"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3315661741"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3014574041"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1653192271"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2891077512"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4321115058"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4216618348"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2826980990"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1384391514"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/48079978"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2449320336"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2929665976"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2188291552"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/397701052"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2945786323"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3315661741"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3167508842"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2978528997"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2761251066"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4406930861"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/823376412"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4461476232"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/967745395"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2894303279"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3561762014"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1528653836"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3268725254"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2856980616"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4383735673"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3297492071"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2643017411"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/491158969"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2265356065"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1175334252"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/324925496"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3240746784"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4365169876"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4054150096"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3414553731"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3067131032"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1099041211"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/1531782758"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3979574893"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/245192045"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3240746784"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/245192045"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4365169876"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/561304480"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/483796292"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3010524888"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/264914396"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2861010016"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3414553731"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2891077512"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3167508842"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/381372764"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3899802973"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2894303279"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/491158969"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2555049320"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2338413816"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3023136063"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/420490172"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2338413816"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/749866532"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4403315772"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2346777179"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4431630619"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2826980990"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4216618348"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4229365994"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/1451246322"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4496476518"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/114632353">
     <rdf:type>Person</rdf:type>
@@ -719,71 +751,71 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/4110153253">
     <rdf:type>Person</rdf:type>
     <rdfs:label>4110153253</rdfs:label>
-    <owl:hasValue>255</owl:hasValue>
+    <owl:hasValue>261</owl:hasValue>
     <foaf:accountName>4110153253</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/4352780187">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>4352780187</rdfs:label>
+    <owl:hasValue>164</owl:hasValue>
+    <foaf:accountName>4352780187</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/4242549262">
     <rdf:type>Person</rdf:type>
     <rdfs:label>4242549262</rdfs:label>
-    <owl:hasValue>217</owl:hasValue>
+    <owl:hasValue>225</owl:hasValue>
     <foaf:accountName>4242549262</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4139653875">
+  <rdf:Description rdf:about="http://sercan.com/semweb/2893697372">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>4139653875</rdfs:label>
-    <owl:hasValue>141</owl:hasValue>
-    <foaf:accountName>4139653875</foaf:accountName>
+    <rdfs:label>2893697372</rdfs:label>
+    <owl:hasValue>99</owl:hasValue>
+    <foaf:accountName>2893697372</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/4313734036">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>4313734036</rdfs:label>
+    <owl:hasValue>132</owl:hasValue>
+    <foaf:accountName>4313734036</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/4141975815">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>4141975815</rdfs:label>
+    <owl:hasValue>208</owl:hasValue>
+    <foaf:accountName>4141975815</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/48079978">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>48079978</rdfs:label>
+    <owl:hasValue>130</owl:hasValue>
+    <foaf:accountName>48079978</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3384676115">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3384676115</rdfs:label>
-    <owl:hasValue>215</owl:hasValue>
+    <owl:hasValue>223</owl:hasValue>
     <foaf:accountName>3384676115</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4386217954">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4386217954</rdfs:label>
-    <owl:hasValue>157</owl:hasValue>
-    <foaf:accountName>4386217954</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3387791218">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3387791218</rdfs:label>
-    <owl:hasValue>265</owl:hasValue>
+    <owl:hasValue>271</owl:hasValue>
     <foaf:accountName>3387791218</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/705970219">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>705970219</rdfs:label>
-    <owl:hasValue>144</owl:hasValue>
-    <foaf:accountName>705970219</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2482559452">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2482559452</rdfs:label>
-    <owl:hasValue>298</owl:hasValue>
-    <foaf:accountName>2482559452</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3166157513">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3166157513</rdfs:label>
-    <owl:hasValue>229</owl:hasValue>
+    <owl:hasValue>236</owl:hasValue>
     <foaf:accountName>3166157513</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4340955160">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4340955160</rdfs:label>
-    <owl:hasValue>124</owl:hasValue>
-    <foaf:accountName>4340955160</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/91827266">
@@ -793,46 +825,46 @@
     <foaf:accountName>91827266</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/317378810">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>317378810</rdfs:label>
+    <owl:hasValue>143</owl:hasValue>
+    <foaf:accountName>317378810</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3137494960">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3137494960</rdfs:label>
-    <owl:hasValue>212</owl:hasValue>
+    <owl:hasValue>220</owl:hasValue>
     <foaf:accountName>3137494960</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4391536934">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4391536934</rdfs:label>
-    <owl:hasValue>109</owl:hasValue>
-    <foaf:accountName>4391536934</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2541823525">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2541823525</rdfs:label>
-    <owl:hasValue>214</owl:hasValue>
+    <owl:hasValue>222</owl:hasValue>
     <foaf:accountName>2541823525</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/575820589">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3297492071">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>575820589</rdfs:label>
-    <owl:hasValue>119</owl:hasValue>
-    <foaf:accountName>575820589</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4350075436">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4350075436</rdfs:label>
-    <owl:hasValue>189</owl:hasValue>
-    <foaf:accountName>4350075436</foaf:accountName>
+    <rdfs:label>3297492071</rdfs:label>
+    <owl:hasValue>142</owl:hasValue>
+    <foaf:accountName>3297492071</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/68218984">
     <rdf:type>Person</rdf:type>
     <rdfs:label>68218984</rdfs:label>
-    <owl:hasValue>254</owl:hasValue>
+    <owl:hasValue>260</owl:hasValue>
     <foaf:accountName>68218984</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/390510030">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>390510030</rdfs:label>
+    <owl:hasValue>209</owl:hasValue>
+    <foaf:accountName>390510030</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/105007646">
@@ -842,11 +874,18 @@
     <foaf:accountName>105007646</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3223006459">
+  <rdf:Description rdf:about="http://sercan.com/semweb/397701052">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>3223006459</rdfs:label>
-    <owl:hasValue>194</owl:hasValue>
-    <foaf:accountName>3223006459</foaf:accountName>
+    <rdfs:label>397701052</rdfs:label>
+    <owl:hasValue>166</owl:hasValue>
+    <foaf:accountName>397701052</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2449320336">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2449320336</rdfs:label>
+    <owl:hasValue>182</owl:hasValue>
+    <foaf:accountName>2449320336</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2152546141">
@@ -859,7 +898,7 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/971770843">
     <rdf:type>Person</rdf:type>
     <rdfs:label>971770843</rdfs:label>
-    <owl:hasValue>253</owl:hasValue>
+    <owl:hasValue>259</owl:hasValue>
     <foaf:accountName>971770843</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -870,18 +909,16 @@
     <foaf:accountName>1258059270</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/hasDegreeValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/410356886">
     <rdf:type>Person</rdf:type>
     <rdfs:label>410356886</rdfs:label>
-    <owl:hasValue>259</owl:hasValue>
+    <owl:hasValue>265</owl:hasValue>
     <foaf:accountName>410356886</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3613566759">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3613566759</rdfs:label>
-    <owl:hasValue>143</owl:hasValue>
-    <foaf:accountName>3613566759</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/127984706">
@@ -891,81 +928,32 @@
     <foaf:accountName>127984706</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/219122896">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>219122896</rdfs:label>
-    <owl:hasValue>169</owl:hasValue>
-    <foaf:accountName>219122896</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2414837626">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2414837626</rdfs:label>
-    <owl:hasValue>289</owl:hasValue>
+    <owl:hasValue>295</owl:hasValue>
     <foaf:accountName>2414837626</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2677214248">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2677214248</rdfs:label>
-    <owl:hasValue>153</owl:hasValue>
-    <foaf:accountName>2677214248</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/99164231">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>99164231</rdfs:label>
-    <owl:hasValue>206</owl:hasValue>
-    <foaf:accountName>99164231</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3223917022">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3223917022</rdfs:label>
-    <owl:hasValue>292</owl:hasValue>
+    <owl:hasValue>298</owl:hasValue>
     <foaf:accountName>3223917022</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/353875367">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>353875367</rdfs:label>
-    <owl:hasValue>125</owl:hasValue>
-    <foaf:accountName>353875367</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/187219409">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>187219409</rdfs:label>
-    <owl:hasValue>129</owl:hasValue>
-    <foaf:accountName>187219409</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/281044508">
     <rdf:type>Person</rdf:type>
     <rdfs:label>281044508</rdfs:label>
-    <owl:hasValue>256</owl:hasValue>
+    <owl:hasValue>262</owl:hasValue>
     <foaf:accountName>281044508</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3297904213">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4410094461">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>3297904213</rdfs:label>
-    <owl:hasValue>140</owl:hasValue>
-    <foaf:accountName>3297904213</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2541199250">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2541199250</rdfs:label>
-    <owl:hasValue>121</owl:hasValue>
-    <foaf:accountName>2541199250</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1240589378">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>1240589378</rdfs:label>
-    <owl:hasValue>108</owl:hasValue>
-    <foaf:accountName>1240589378</foaf:accountName>
+    <rdfs:label>4410094461</rdfs:label>
+    <owl:hasValue>137</owl:hasValue>
+    <foaf:accountName>4410094461</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/110955313">
@@ -975,18 +963,18 @@
     <foaf:accountName>110955313</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/4372748835">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>4372748835</rdfs:label>
+    <owl:hasValue>108</owl:hasValue>
+    <foaf:accountName>4372748835</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/210278739">
     <rdf:type>Person</rdf:type>
     <rdfs:label>210278739</rdfs:label>
-    <owl:hasValue>219</owl:hasValue>
+    <owl:hasValue>226</owl:hasValue>
     <foaf:accountName>210278739</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/236366208">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>236366208</rdfs:label>
-    <owl:hasValue>36</owl:hasValue>
-    <foaf:accountName>236366208</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/95058068">
@@ -996,10 +984,17 @@
     <foaf:accountName>95058068</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/236366208">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>236366208</rdfs:label>
+    <owl:hasValue>36</owl:hasValue>
+    <foaf:accountName>236366208</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1607697672">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1607697672</rdfs:label>
-    <owl:hasValue>271</owl:hasValue>
+    <owl:hasValue>277</owl:hasValue>
     <foaf:accountName>1607697672</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -1017,25 +1012,18 @@
     <foaf:accountName>568796889</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/863535048">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>863535048</rdfs:label>
+    <owl:hasValue>248</owl:hasValue>
+    <foaf:accountName>863535048</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/256735760">
     <rdf:type>Person</rdf:type>
     <rdfs:label>256735760</rdfs:label>
     <owl:hasValue>66</owl:hasValue>
     <foaf:accountName>256735760</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/863535048">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>863535048</rdfs:label>
-    <owl:hasValue>242</owl:hasValue>
-    <foaf:accountName>863535048</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1502350704">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>1502350704</rdfs:label>
-    <owl:hasValue>207</owl:hasValue>
-    <foaf:accountName>1502350704</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1479324445">
@@ -1045,18 +1033,39 @@
     <foaf:accountName>1479324445</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/1502350704">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>1502350704</rdfs:label>
+    <owl:hasValue>215</owl:hasValue>
+    <foaf:accountName>1502350704</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2608755990">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2608755990</rdfs:label>
+    <owl:hasValue>149</owl:hasValue>
+    <foaf:accountName>2608755990</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3054387716">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3054387716</rdfs:label>
-    <owl:hasValue>203</owl:hasValue>
+    <owl:hasValue>212</owl:hasValue>
     <foaf:accountName>3054387716</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3004698009">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3004698009</rdfs:label>
-    <owl:hasValue>284</owl:hasValue>
+    <owl:hasValue>290</owl:hasValue>
     <foaf:accountName>3004698009</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/353547452">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>353547452</rdfs:label>
+    <owl:hasValue>201</owl:hasValue>
+    <foaf:accountName>353547452</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/261706880">
@@ -1073,11 +1082,11 @@
     <foaf:accountName>443707164</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2822288607">
+  <rdf:Description rdf:about="http://sercan.com/semweb/403125888">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2822288607</rdfs:label>
-    <owl:hasValue>299</owl:hasValue>
-    <foaf:accountName>2822288607</foaf:accountName>
+    <rdfs:label>403125888</rdfs:label>
+    <owl:hasValue>203</owl:hasValue>
+    <foaf:accountName>403125888</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/407712433">
@@ -1087,46 +1096,25 @@
     <foaf:accountName>407712433</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4393275267">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4393275267</rdfs:label>
-    <owl:hasValue>113</owl:hasValue>
-    <foaf:accountName>4393275267</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2269089918">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2269089918</rdfs:label>
-    <owl:hasValue>117</owl:hasValue>
-    <foaf:accountName>2269089918</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1633957826">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1633957826</rdfs:label>
-    <owl:hasValue>293</owl:hasValue>
+    <owl:hasValue>299</owl:hasValue>
     <foaf:accountName>1633957826</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2274938376">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2274938376</rdfs:label>
-    <owl:hasValue>201</owl:hasValue>
+    <owl:hasValue>210</owl:hasValue>
     <foaf:accountName>2274938376</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/128494113">
+  <rdf:Description rdf:about="http://sercan.com/semweb/1062443863">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>128494113</rdfs:label>
-    <owl:hasValue>142</owl:hasValue>
-    <foaf:accountName>128494113</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4300284381">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4300284381</rdfs:label>
-    <owl:hasValue>179</owl:hasValue>
-    <foaf:accountName>4300284381</foaf:accountName>
+    <rdfs:label>1062443863</rdfs:label>
+    <owl:hasValue>109</owl:hasValue>
+    <foaf:accountName>1062443863</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/308511764">
@@ -1136,34 +1124,6 @@
     <foaf:accountName>308511764</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3738030980">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3738030980</rdfs:label>
-    <owl:hasValue>173</owl:hasValue>
-    <foaf:accountName>3738030980</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/376689772">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>376689772</rdfs:label>
-    <owl:hasValue>115</owl:hasValue>
-    <foaf:accountName>376689772</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/597598100">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>597598100</rdfs:label>
-    <owl:hasValue>301</owl:hasValue>
-    <foaf:accountName>597598100</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/199188939">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>199188939</rdfs:label>
-    <owl:hasValue>29</owl:hasValue>
-    <foaf:accountName>199188939</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/118151953">
     <rdf:type>Person</rdf:type>
     <rdfs:label>118151953</rdfs:label>
@@ -1171,11 +1131,11 @@
     <foaf:accountName>118151953</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3088842999">
+  <rdf:Description rdf:about="http://sercan.com/semweb/199188939">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>3088842999</rdfs:label>
-    <owl:hasValue>195</owl:hasValue>
-    <foaf:accountName>3088842999</foaf:accountName>
+    <rdfs:label>199188939</rdfs:label>
+    <owl:hasValue>29</owl:hasValue>
+    <foaf:accountName>199188939</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/946708478">
@@ -1192,11 +1152,11 @@
     <foaf:accountName>119557021</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1150162736">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3023136063">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>1150162736</rdfs:label>
-    <owl:hasValue>138</owl:hasValue>
-    <foaf:accountName>1150162736</foaf:accountName>
+    <rdfs:label>3023136063</rdfs:label>
+    <owl:hasValue>184</owl:hasValue>
+    <foaf:accountName>3023136063</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/139068659">
@@ -1206,32 +1166,25 @@
     <foaf:accountName>139068659</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/4461476232">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>4461476232</rdfs:label>
+    <owl:hasValue>179</owl:hasValue>
+    <foaf:accountName>4461476232</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/4127557133">
     <rdf:type>Person</rdf:type>
     <rdfs:label>4127557133</rdfs:label>
-    <owl:hasValue>202</owl:hasValue>
+    <owl:hasValue>211</owl:hasValue>
     <foaf:accountName>4127557133</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1080717739">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1080717739</rdfs:label>
-    <owl:hasValue>275</owl:hasValue>
+    <owl:hasValue>281</owl:hasValue>
     <foaf:accountName>1080717739</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3953685395">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3953685395</rdfs:label>
-    <owl:hasValue>98</owl:hasValue>
-    <foaf:accountName>3953685395</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2364901622">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2364901622</rdfs:label>
-    <owl:hasValue>134</owl:hasValue>
-    <foaf:accountName>2364901622</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/840396301">
@@ -1241,25 +1194,11 @@
     <foaf:accountName>840396301</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/50205840">
+  <rdf:Description rdf:about="http://sercan.com/semweb/2346777179">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>50205840</rdfs:label>
-    <owl:hasValue>158</owl:hasValue>
-    <foaf:accountName>50205840</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2615629696">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2615629696</rdfs:label>
-    <owl:hasValue>156</owl:hasValue>
-    <foaf:accountName>2615629696</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4114932556">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4114932556</rdfs:label>
-    <owl:hasValue>105</owl:hasValue>
-    <foaf:accountName>4114932556</foaf:accountName>
+    <rdfs:label>2346777179</rdfs:label>
+    <owl:hasValue>186</owl:hasValue>
+    <foaf:accountName>2346777179</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/81395940">
@@ -1293,8 +1232,15 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/3826202614">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3826202614</rdfs:label>
-    <owl:hasValue>260</owl:hasValue>
+    <owl:hasValue>266</owl:hasValue>
     <foaf:accountName>3826202614</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/1175334252">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>1175334252</rdfs:label>
+    <owl:hasValue>98</owl:hasValue>
+    <foaf:accountName>1175334252</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/258264369">
@@ -1311,25 +1257,11 @@
     <foaf:accountName>732188802</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3076185874">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3076185874</rdfs:label>
-    <owl:hasValue>176</owl:hasValue>
-    <foaf:accountName>3076185874</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/150197066">
     <rdf:type>Person</rdf:type>
     <rdfs:label>150197066</rdfs:label>
     <owl:hasValue>8</owl:hasValue>
     <foaf:accountName>150197066</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/448123385">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>448123385</rdfs:label>
-    <owl:hasValue>30</owl:hasValue>
-    <foaf:accountName>448123385</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/101528860">
@@ -1339,18 +1271,18 @@
     <foaf:accountName>101528860</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/448123385">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>448123385</rdfs:label>
+    <owl:hasValue>30</owl:hasValue>
+    <foaf:accountName>448123385</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/288242656">
     <rdf:type>Person</rdf:type>
     <rdfs:label>288242656</rdfs:label>
     <owl:hasValue>61</owl:hasValue>
     <foaf:accountName>288242656</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4396368291">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4396368291</rdfs:label>
-    <owl:hasValue>166</owl:hasValue>
-    <foaf:accountName>4396368291</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3290843085">
@@ -1360,26 +1292,29 @@
     <foaf:accountName>3290843085</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1186316647">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3167508842">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>1186316647</rdfs:label>
-    <owl:hasValue>164</owl:hasValue>
-    <foaf:accountName>1186316647</foaf:accountName>
+    <rdfs:label>3167508842</rdfs:label>
+    <owl:hasValue>188</owl:hasValue>
+    <foaf:accountName>3167508842</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2190350638">
+  <rdf:Description rdf:about="http://sercan.com/semweb/hasClosenessCentralityValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/491158969">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2190350638</rdfs:label>
-    <owl:hasValue>155</owl:hasValue>
-    <foaf:accountName>2190350638</foaf:accountName>
+    <rdfs:label>491158969</rdfs:label>
+    <owl:hasValue>191</owl:hasValue>
+    <foaf:accountName>491158969</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/119805156">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>119805156</rdfs:label>
-    <owl:hasValue>245</owl:hasValue>
-    <foaf:accountName>119805156</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  <rdf:Description rdf:about="http://sercan.com/semweb/hasPageRankValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/371193944">
     <rdf:type>Person</rdf:type>
@@ -1388,32 +1323,25 @@
     <foaf:accountName>371193944</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/119805156">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>119805156</rdfs:label>
+    <owl:hasValue>251</owl:hasValue>
+    <foaf:accountName>119805156</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/759982369">
     <rdf:type>Person</rdf:type>
     <rdfs:label>759982369</rdfs:label>
-    <owl:hasValue>288</owl:hasValue>
+    <owl:hasValue>294</owl:hasValue>
     <foaf:accountName>759982369</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/231346583">
+  <rdf:Description rdf:about="http://sercan.com/semweb/959699293">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>231346583</rdfs:label>
-    <owl:hasValue>162</owl:hasValue>
-    <foaf:accountName>231346583</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4396840353">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4396840353</rdfs:label>
-    <owl:hasValue>137</owl:hasValue>
-    <foaf:accountName>4396840353</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3667134083">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3667134083</rdfs:label>
-    <owl:hasValue>183</owl:hasValue>
-    <foaf:accountName>3667134083</foaf:accountName>
+    <rdfs:label>959699293</rdfs:label>
+    <owl:hasValue>170</owl:hasValue>
+    <foaf:accountName>959699293</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/163522806">
@@ -1426,35 +1354,35 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/926179536">
     <rdf:type>Person</rdf:type>
     <rdfs:label>926179536</rdfs:label>
-    <owl:hasValue>274</owl:hasValue>
+    <owl:hasValue>280</owl:hasValue>
     <foaf:accountName>926179536</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/224983464">
     <rdf:type>Person</rdf:type>
     <rdfs:label>224983464</rdfs:label>
-    <owl:hasValue>204</owl:hasValue>
+    <owl:hasValue>213</owl:hasValue>
     <foaf:accountName>224983464</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/980880956">
     <rdf:type>Person</rdf:type>
     <rdfs:label>980880956</rdfs:label>
-    <owl:hasValue>290</owl:hasValue>
+    <owl:hasValue>296</owl:hasValue>
     <foaf:accountName>980880956</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2255637745">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2255637745</rdfs:label>
-    <owl:hasValue>270</owl:hasValue>
+    <owl:hasValue>276</owl:hasValue>
     <foaf:accountName>2255637745</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3674011283">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3674011283</rdfs:label>
-    <owl:hasValue>220</owl:hasValue>
+    <owl:hasValue>227</owl:hasValue>
     <foaf:accountName>3674011283</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -1465,11 +1393,39 @@
     <foaf:accountName>478470158</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3949300816">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3949300816</rdfs:label>
+    <owl:hasValue>156</owl:hasValue>
+    <foaf:accountName>3949300816</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3285648622">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3285648622</rdfs:label>
+    <owl:hasValue>134</owl:hasValue>
+    <foaf:accountName>3285648622</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/483796292">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>483796292</rdfs:label>
+    <owl:hasValue>168</owl:hasValue>
+    <foaf:accountName>483796292</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/51594885">
     <rdf:type>Person</rdf:type>
     <rdfs:label>51594885</rdfs:label>
     <owl:hasValue>82</owl:hasValue>
     <foaf:accountName>51594885</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3242836880">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3242836880</rdfs:label>
+    <owl:hasValue>121</owl:hasValue>
+    <foaf:accountName>3242836880</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/253551365">
@@ -1479,25 +1435,11 @@
     <foaf:accountName>253551365</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1697263256">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>1697263256</rdfs:label>
-    <owl:hasValue>184</owl:hasValue>
-    <foaf:accountName>1697263256</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1525511714">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1525511714</rdfs:label>
-    <owl:hasValue>247</owl:hasValue>
+    <owl:hasValue>253</owl:hasValue>
     <foaf:accountName>1525511714</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1116019093">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>1116019093</rdfs:label>
-    <owl:hasValue>100</owl:hasValue>
-    <foaf:accountName>1116019093</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/161650031">
@@ -1507,17 +1449,24 @@
     <foaf:accountName>161650031</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/1528653836">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>1528653836</rdfs:label>
+    <owl:hasValue>151</owl:hasValue>
+    <foaf:accountName>1528653836</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/945592952">
     <rdf:type>Person</rdf:type>
     <rdfs:label>945592952</rdfs:label>
-    <owl:hasValue>266</owl:hasValue>
+    <owl:hasValue>272</owl:hasValue>
     <foaf:accountName>945592952</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/4068000915">
     <rdf:type>Person</rdf:type>
     <rdfs:label>4068000915</rdfs:label>
-    <owl:hasValue>208</owl:hasValue>
+    <owl:hasValue>216</owl:hasValue>
     <foaf:accountName>4068000915</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -1531,22 +1480,29 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/4118345488">
     <rdf:type>Person</rdf:type>
     <rdfs:label>4118345488</rdfs:label>
-    <owl:hasValue>223</owl:hasValue>
+    <owl:hasValue>230</owl:hasValue>
     <foaf:accountName>4118345488</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2662728487">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2662728487</rdfs:label>
-    <owl:hasValue>258</owl:hasValue>
+    <owl:hasValue>264</owl:hasValue>
     <foaf:accountName>2662728487</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4154385873">
+  <rdf:Description rdf:about="http://sercan.com/semweb/1099041211">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>4154385873</rdfs:label>
-    <owl:hasValue>102</owl:hasValue>
-    <foaf:accountName>4154385873</foaf:accountName>
+    <rdfs:label>1099041211</rdfs:label>
+    <owl:hasValue>163</owl:hasValue>
+    <foaf:accountName>1099041211</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3268725254">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3268725254</rdfs:label>
+    <owl:hasValue>161</owl:hasValue>
+    <foaf:accountName>3268725254</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/99082366">
@@ -1556,60 +1512,72 @@
     <foaf:accountName>99082366</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2350852173">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4404140115">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2350852173</rdfs:label>
-    <owl:hasValue>133</owl:hasValue>
-    <foaf:accountName>2350852173</foaf:accountName>
+    <rdfs:label>4404140115</rdfs:label>
+    <owl:hasValue>111</owl:hasValue>
+    <foaf:accountName>4404140115</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/4398173056">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>4398173056</rdfs:label>
+    <owl:hasValue>158</owl:hasValue>
+    <foaf:accountName>4398173056</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/26698354">
     <rdf:type>Person</rdf:type>
     <rdfs:label>26698354</rdfs:label>
-    <owl:hasValue>243</owl:hasValue>
+    <owl:hasValue>249</owl:hasValue>
     <foaf:accountName>26698354</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/90367735">
     <rdf:type>Person</rdf:type>
     <rdfs:label>90367735</rdfs:label>
-    <owl:hasValue>261</owl:hasValue>
+    <owl:hasValue>267</owl:hasValue>
     <foaf:accountName>90367735</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/150340065">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>150340065</rdfs:label>
-    <owl:hasValue>273</owl:hasValue>
-    <foaf:accountName>150340065</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3007380247">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3007380247</rdfs:label>
-    <owl:hasValue>198</owl:hasValue>
-    <foaf:accountName>3007380247</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1148147754">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1148147754</rdfs:label>
-    <owl:hasValue>285</owl:hasValue>
+    <owl:hasValue>291</owl:hasValue>
     <foaf:accountName>1148147754</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/324881725">
+  <rdf:Description rdf:about="http://sercan.com/semweb/150340065">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>324881725</rdfs:label>
-    <owl:hasValue>130</owl:hasValue>
-    <foaf:accountName>324881725</foaf:accountName>
+    <rdfs:label>150340065</rdfs:label>
+    <owl:hasValue>279</owl:hasValue>
+    <foaf:accountName>150340065</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2660102684">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2660102684</rdfs:label>
+    <owl:hasValue>206</owl:hasValue>
+    <foaf:accountName>2660102684</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/hasDistanceCentralityValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/720381445">
     <rdf:type>Person</rdf:type>
     <rdfs:label>720381445</rdfs:label>
-    <owl:hasValue>227</owl:hasValue>
+    <owl:hasValue>234</owl:hasValue>
     <foaf:accountName>720381445</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3346961307">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3346961307</rdfs:label>
+    <owl:hasValue>204</owl:hasValue>
+    <foaf:accountName>3346961307</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/Person">
@@ -1622,18 +1590,11 @@
     <foaf:accountName>1855170271</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3378736319">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4224537621">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>3378736319</rdfs:label>
-    <owl:hasValue>146</owl:hasValue>
-    <foaf:accountName>3378736319</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4248078914">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4248078914</rdfs:label>
-    <owl:hasValue>135</owl:hasValue>
-    <foaf:accountName>4248078914</foaf:accountName>
+    <rdfs:label>4224537621</rdfs:label>
+    <owl:hasValue>115</owl:hasValue>
+    <foaf:accountName>4224537621</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/160315268">
@@ -1643,11 +1604,18 @@
     <foaf:accountName>160315268</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2880287699">
+  <rdf:Description rdf:about="http://sercan.com/semweb/2643017411">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2880287699</rdfs:label>
-    <owl:hasValue>99</owl:hasValue>
-    <foaf:accountName>2880287699</foaf:accountName>
+    <rdfs:label>2643017411</rdfs:label>
+    <owl:hasValue>102</owl:hasValue>
+    <foaf:accountName>2643017411</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/1401137510">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>1401137510</rdfs:label>
+    <owl:hasValue>284</owl:hasValue>
+    <foaf:accountName>1401137510</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/464616640">
@@ -1657,11 +1625,18 @@
     <foaf:accountName>464616640</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1401137510">
+  <rdf:Description rdf:about="http://sercan.com/semweb/2188291552">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>1401137510</rdfs:label>
-    <owl:hasValue>278</owl:hasValue>
-    <foaf:accountName>1401137510</foaf:accountName>
+    <rdfs:label>2188291552</rdfs:label>
+    <owl:hasValue>155</owl:hasValue>
+    <foaf:accountName>2188291552</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2569538971">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2569538971</rdfs:label>
+    <owl:hasValue>140</owl:hasValue>
+    <foaf:accountName>2569538971</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2990114507">
@@ -1674,14 +1649,14 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/2793519236">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2793519236</rdfs:label>
-    <owl:hasValue>269</owl:hasValue>
+    <owl:hasValue>275</owl:hasValue>
     <foaf:accountName>2793519236</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1323878023">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1323878023</rdfs:label>
-    <owl:hasValue>279</owl:hasValue>
+    <owl:hasValue>285</owl:hasValue>
     <foaf:accountName>1323878023</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -1690,6 +1665,13 @@
     <rdfs:label>275191552</rdfs:label>
     <owl:hasValue>56</owl:hasValue>
     <foaf:accountName>275191552</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3899802973">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3899802973</rdfs:label>
+    <owl:hasValue>148</owl:hasValue>
+    <foaf:accountName>3899802973</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2766905393">
@@ -1702,28 +1684,14 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/733559790">
     <rdf:type>Person</rdf:type>
     <rdfs:label>733559790</rdfs:label>
-    <owl:hasValue>210</owl:hasValue>
+    <owl:hasValue>218</owl:hasValue>
     <foaf:accountName>733559790</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3317180906">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3317180906</rdfs:label>
-    <owl:hasValue>116</owl:hasValue>
-    <foaf:accountName>3317180906</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/495771052">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>495771052</rdfs:label>
-    <owl:hasValue>199</owl:hasValue>
-    <foaf:accountName>495771052</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2640694403">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2640694403</rdfs:label>
-    <owl:hasValue>264</owl:hasValue>
+    <owl:hasValue>270</owl:hasValue>
     <foaf:accountName>2640694403</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -1732,6 +1700,13 @@
     <rdfs:label>294078242</rdfs:label>
     <owl:hasValue>92</owl:hasValue>
     <foaf:accountName>294078242</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2978528997">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2978528997</rdfs:label>
+    <owl:hasValue>129</owl:hasValue>
+    <foaf:accountName>2978528997</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/64225872">
@@ -1744,22 +1719,29 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/3468962847">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3468962847</rdfs:label>
-    <owl:hasValue>205</owl:hasValue>
+    <owl:hasValue>214</owl:hasValue>
     <foaf:accountName>3468962847</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2861010016">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2861010016</rdfs:label>
+    <owl:hasValue>153</owl:hasValue>
+    <foaf:accountName>2861010016</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/469358636">
     <rdf:type>Person</rdf:type>
     <rdfs:label>469358636</rdfs:label>
-    <owl:hasValue>226</owl:hasValue>
+    <owl:hasValue>233</owl:hasValue>
     <foaf:accountName>469358636</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1708210868">
+  <rdf:Description rdf:about="http://sercan.com/semweb/2826980990">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>1708210868</rdfs:label>
-    <owl:hasValue>197</owl:hasValue>
-    <foaf:accountName>1708210868</foaf:accountName>
+    <rdfs:label>2826980990</rdfs:label>
+    <owl:hasValue>133</owl:hasValue>
+    <foaf:accountName>2826980990</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/214667363">
@@ -1767,13 +1749,6 @@
     <rdfs:label>214667363</rdfs:label>
     <owl:hasValue>55</owl:hasValue>
     <foaf:accountName>214667363</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4478407460">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4478407460</rdfs:label>
-    <owl:hasValue>145</owl:hasValue>
-    <foaf:accountName>4478407460</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/63662418">
@@ -1786,71 +1761,71 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/2699437380">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2699437380</rdfs:label>
-    <owl:hasValue>263</owl:hasValue>
+    <owl:hasValue>269</owl:hasValue>
     <foaf:accountName>2699437380</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3788867412">
+  <rdf:Description rdf:about="http://sercan.com/semweb/1088760524">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>3788867412</rdfs:label>
+    <rdfs:label>1088760524</rdfs:label>
     <owl:hasValue>128</owl:hasValue>
-    <foaf:accountName>3788867412</foaf:accountName>
+    <foaf:accountName>1088760524</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/95687734">
     <rdf:type>Person</rdf:type>
     <rdfs:label>95687734</rdfs:label>
-    <owl:hasValue>250</owl:hasValue>
+    <owl:hasValue>256</owl:hasValue>
     <foaf:accountName>95687734</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3460369997">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3014574041">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>3460369997</rdfs:label>
-    <owl:hasValue>148</owl:hasValue>
-    <foaf:accountName>3460369997</foaf:accountName>
+    <rdfs:label>3014574041</rdfs:label>
+    <owl:hasValue>131</owl:hasValue>
+    <foaf:accountName>3014574041</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3366767746">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3366767746</rdfs:label>
+    <owl:hasValue>150</owl:hasValue>
+    <foaf:accountName>3366767746</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2497167052">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2497167052</rdfs:label>
-    <owl:hasValue>268</owl:hasValue>
+    <owl:hasValue>274</owl:hasValue>
     <foaf:accountName>2497167052</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3002837037">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3002837037</rdfs:label>
-    <owl:hasValue>267</owl:hasValue>
+    <owl:hasValue>273</owl:hasValue>
     <foaf:accountName>3002837037</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3100443329">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3100443329</rdfs:label>
+    <owl:hasValue>160</owl:hasValue>
+    <foaf:accountName>3100443329</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3110595832">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3110595832</rdfs:label>
-    <owl:hasValue>232</owl:hasValue>
+    <owl:hasValue>239</owl:hasValue>
     <foaf:accountName>3110595832</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2343546912">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2343546912</rdfs:label>
-    <owl:hasValue>272</owl:hasValue>
+    <owl:hasValue>278</owl:hasValue>
     <foaf:accountName>2343546912</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/65098935">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>65098935</rdfs:label>
-    <owl:hasValue>165</owl:hasValue>
-    <foaf:accountName>65098935</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/232972399">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>232972399</rdfs:label>
-    <owl:hasValue>93</owl:hasValue>
-    <foaf:accountName>232972399</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/198116923">
@@ -1860,43 +1835,57 @@
     <foaf:accountName>198116923</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/232972399">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>232972399</rdfs:label>
+    <owl:hasValue>93</owl:hasValue>
+    <foaf:accountName>232972399</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3369909729">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3369909729</rdfs:label>
-    <owl:hasValue>231</owl:hasValue>
+    <owl:hasValue>238</owl:hasValue>
     <foaf:accountName>3369909729</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/299548470">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>299548470</rdfs:label>
+    <owl:hasValue>245</owl:hasValue>
+    <foaf:accountName>299548470</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3443274215">
     <skos:related rdf:resource="http://sercan.com/semweb/4118326966"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4127557133"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/1647453565"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/4003527628"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/4003527628"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2259905361"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4127557133"/>
     <skos:related rdf:resource="http://sercan.com/semweb/3369909729"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2662728487"/>
     <skos:related rdf:resource="http://sercan.com/semweb/281391101"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3430566412"/>
     <rdfs:label>3443274215</rdfs:label>
-    <skos:related rdf:resource="http://sercan.com/semweb/3804020539"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/3468962847"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/3366652893"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/403125888"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/3223917022"/>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
     <skos:related rdf:resource="http://sercan.com/semweb/469358636"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/353547452"/>
     <skos:related rdf:resource="http://sercan.com/semweb/394106480"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3804020539"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/99164231"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/1080717739"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/39412458"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2573437319"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2334080430"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1633957826"/>
     <skos:related rdf:resource="http://sercan.com/semweb/2414837626"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2581021770"/>
     <skos:related rdf:resource="http://sercan.com/semweb/2541823525"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/500389608"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2660102684"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/759982369"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/95687734"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/319286051"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/91650196"/>
     <skos:related rdf:resource="http://sercan.com/semweb/90367735"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4243181061"/>
@@ -1904,35 +1893,33 @@
     <skos:related rdf:resource="http://sercan.com/semweb/4180741997"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/3335633692"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4243579265"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2610344748"/>
     <skos:related rdf:resource="http://sercan.com/semweb/2466014960"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/390510030"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3468962847"/>
     <skos:related rdf:resource="http://sercan.com/semweb/4242549262"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/1525511714"/>
     <skos:related rdf:resource="http://sercan.com/semweb/720381445"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3387791218"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/99164231"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4118326966"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2424540253"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2660102684"/>
     <skos:related rdf:resource="http://sercan.com/semweb/3166157513"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/3153214059"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2822288607"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/26698354"/>
+    <ssna:hasBetweennessCentralityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.87</ssna:hasBetweennessCentralityValue>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/390510030"/>
     <skos:related rdf:resource="http://sercan.com/semweb/733559790"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/831214964"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2543789822"/>
     <skos:related rdf:resource="http://sercan.com/semweb/1607697672"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/263248550"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/390510030"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3004698009"/>
     <skos:related rdf:resource="http://sercan.com/semweb/1401137510"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2822288607"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/3166250860"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/3804020539"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1262735570"/>
     <skos:related rdf:resource="http://sercan.com/semweb/1647453565"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2378499680"/>
     <skos:related rdf:resource="http://sercan.com/semweb/2662728487"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/263248550"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1159873675"/>
     <skos:related rdf:resource="http://sercan.com/semweb/91650196"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2573437319"/>
@@ -1947,11 +1934,11 @@
     <skos:related rdf:resource="http://sercan.com/semweb/831214964"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2543789822"/>
     <skos:related rdf:resource="http://sercan.com/semweb/476697080"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2259905361"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/4141975815"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/4127557133"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/733559790"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2334080430"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/863535048"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2482559452"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/210278739"/>
     <skos:related rdf:resource="http://sercan.com/semweb/2336534148"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/394106480"/>
@@ -1967,7 +1954,9 @@
     <foaf:knows rdf:resource="http://sercan.com/semweb/980880956"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/469358636"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/394106480"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/2974380226"/>
     <skos:related rdf:resource="http://sercan.com/semweb/1080717739"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/353547452"/>
     <skos:related rdf:resource="http://sercan.com/semweb/119805156"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2815326095"/>
     <skos:related rdf:resource="http://sercan.com/semweb/95687734"/>
@@ -1977,19 +1966,17 @@
     <skos:related rdf:resource="http://sercan.com/semweb/1633957826"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2793519236"/>
     <skos:related rdf:resource="http://sercan.com/semweb/2640694403"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2929616692"/>
     <skos:related rdf:resource="http://sercan.com/semweb/210278739"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2822288607"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2610344748"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/597598100"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/3346961307"/>
     <skos:related rdf:resource="http://sercan.com/semweb/926179536"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/720381445"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2482559452"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/281044508"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/99164231"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3346961307"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/3002837037"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/26698354"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/971770843"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2974380226"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/403125888"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2255637745"/>
     <skos:related rdf:resource="http://sercan.com/semweb/452901760"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/119805156"/>
@@ -2014,8 +2001,10 @@
     <foaf:knows rdf:resource="http://sercan.com/semweb/2793519236"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/341984923"/>
     <skos:related rdf:resource="http://sercan.com/semweb/224983464"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/353547452"/>
     <skos:related rdf:resource="http://sercan.com/semweb/4110153253"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/733559790"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/403125888"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/3137494960"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2466014960"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/281391101"/>
@@ -2038,8 +2027,10 @@
     <foaf:knows rdf:resource="http://sercan.com/semweb/4236780227"/>
     <skos:related rdf:resource="http://sercan.com/semweb/310089312"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2343546912"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/3346961307"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/3369909729"/>
     <skos:related rdf:resource="http://sercan.com/semweb/1323878023"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4141975815"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/980880956"/>
     <skos:related rdf:resource="http://sercan.com/semweb/1525511714"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3110595832"/>
@@ -2050,13 +2041,13 @@
     <skos:related rdf:resource="http://sercan.com/semweb/4236780227"/>
     <skos:related rdf:resource="http://sercan.com/semweb/3298920947"/>
     <skos:related rdf:resource="http://sercan.com/semweb/3384676115"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/319286051"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/476697080"/>
     <rdf:type>Person</rdf:type>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/452901760"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/310089312"/>
     <skos:related rdf:resource="http://sercan.com/semweb/2573437319"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2699437380"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/597598100"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/1148147754"/>
     <skos:related rdf:resource="http://sercan.com/semweb/3110595832"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/68218984"/>
@@ -2077,6 +2068,7 @@
     <skos:related rdf:resource="http://sercan.com/semweb/3335633692"/>
     <skos:related rdf:resource="http://sercan.com/semweb/3004698009"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/150340065"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2334080430"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/945592952"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/281044508"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1323878023"/>
@@ -2095,7 +2087,7 @@
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3366652893"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/91650196"/>
     <skos:related rdf:resource="http://sercan.com/semweb/759982369"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/263248550"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/319286051"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/3826202614"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2346265652"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/4110153253"/>
@@ -2112,11 +2104,9 @@
     <foaf:knows rdf:resource="http://sercan.com/semweb/1401137510"/>
     <skos:related rdf:resource="http://sercan.com/semweb/2255637745"/>
     <skos:related rdf:resource="http://sercan.com/semweb/2815326095"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/597598100"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/1323878023"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/4243579265"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/299548470"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2610344748"/>
     <skos:related rdf:resource="http://sercan.com/semweb/3826202614"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/99688311"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2414837626"/>
@@ -2127,14 +2117,14 @@
     <skos:related rdf:resource="http://sercan.com/semweb/1159873675"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2497167052"/>
     <skos:related rdf:resource="http://sercan.com/semweb/281044508"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/39412458"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3335633692"/>
     <skos:related rdf:resource="http://sercan.com/semweb/3366652893"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1647453565"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2541823525"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/299548470"/>
     <skos:related rdf:resource="http://sercan.com/semweb/500389608"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/299548470"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/926179536"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2259905361"/>
     <skos:related rdf:resource="http://sercan.com/semweb/2424540253"/>
     <skos:related rdf:resource="http://sercan.com/semweb/150340065"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4110153253"/>
@@ -2143,22 +2133,22 @@
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4068000915"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/4068000915"/>
     <skos:related rdf:resource="http://sercan.com/semweb/2581021770"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4003527628"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/224983464"/>
     <skos:related rdf:resource="http://sercan.com/semweb/971770843"/>
-    <foaf:knows rdf:resource="http://sercan.com/semweb/2929616692"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2974380226"/>
     <skos:related rdf:resource="http://sercan.com/semweb/4118345488"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3384676115"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/4180741997"/>
     <skos:related rdf:resource="http://sercan.com/semweb/3166250860"/>
     <skos:related rdf:resource="http://sercan.com/semweb/3387791218"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/410356886"/>
+    <foaf:knows rdf:resource="http://sercan.com/semweb/4141975815"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/90367735"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1607697672"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1401137510"/>
-    <skos:related rdf:resource="http://sercan.com/semweb/2929616692"/>
     <skos:related rdf:resource="http://sercan.com/semweb/68218984"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/1633957826"/>
+    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/39412458"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3826202614"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2274938376"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2640694403"/>
@@ -2167,10 +2157,10 @@
     <skos:related rdf:resource="http://sercan.com/semweb/945592952"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/1262735570"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/119805156"/>
-    <ssna:hasFollower rdf:resource="http://sercan.com/semweb/2482559452"/>
     <skos:related rdf:resource="http://sercan.com/semweb/4068000915"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3298920947"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/1502350704"/>
+    <skos:related rdf:resource="http://sercan.com/semweb/2660102684"/>
     <skos:related rdf:resource="http://sercan.com/semweb/26698354"/>
     <skos:related rdf:resource="http://sercan.com/semweb/335231849"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/3430566412"/>
@@ -2180,11 +2170,32 @@
     <foaf:knows rdf:resource="http://sercan.com/semweb/2699437380"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/4242549262"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/299548470">
+  <rdf:Description rdf:about="http://sercan.com/semweb/2929665976">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>299548470</rdfs:label>
-    <owl:hasValue>239</owl:hasValue>
-    <foaf:accountName>299548470</foaf:accountName>
+    <rdfs:label>2929665976</rdfs:label>
+    <owl:hasValue>197</owl:hasValue>
+    <foaf:accountName>2929665976</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2555049320">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2555049320</rdfs:label>
+    <owl:hasValue>178</owl:hasValue>
+    <foaf:accountName>2555049320</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2424540253">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2424540253</rdfs:label>
+    <owl:hasValue>257</owl:hasValue>
+    <foaf:accountName>2424540253</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/1451246322">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>1451246322</rdfs:label>
+    <owl:hasValue>152</owl:hasValue>
+    <foaf:accountName>1451246322</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/304608823">
@@ -2194,39 +2205,42 @@
     <foaf:accountName>304608823</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2424540253">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2424540253</rdfs:label>
-    <owl:hasValue>251</owl:hasValue>
-    <foaf:accountName>2424540253</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  <rdf:Description rdf:about="http://sercan.com/semweb/hasOutDegreeValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2995871015">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4243181061">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2995871015</rdfs:label>
-    <owl:hasValue>123</owl:hasValue>
-    <foaf:accountName>2995871015</foaf:accountName>
+    <rdfs:label>4243181061</rdfs:label>
+    <owl:hasValue>224</owl:hasValue>
+    <foaf:accountName>4243181061</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3259468670">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3259468670</rdfs:label>
-    <owl:hasValue>246</owl:hasValue>
+    <owl:hasValue>252</owl:hasValue>
     <foaf:accountName>3259468670</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4243181061">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4243181061</rdfs:label>
-    <owl:hasValue>216</owl:hasValue>
-    <foaf:accountName>4243181061</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  <rdf:Description rdf:about="http://sercan.com/semweb/hasBaryCentralityValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/476697080">
     <rdf:type>Person</rdf:type>
     <rdfs:label>476697080</rdfs:label>
-    <owl:hasValue>277</owl:hasValue>
+    <owl:hasValue>283</owl:hasValue>
     <foaf:accountName>476697080</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3435393514">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3435393514</rdfs:label>
+    <owl:hasValue>172</owl:hasValue>
+    <foaf:accountName>3435393514</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/528621650">
@@ -2236,24 +2250,10 @@
     <foaf:accountName>528621650</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4122363041">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4122363041</rdfs:label>
-    <owl:hasValue>120</owl:hasValue>
-    <foaf:accountName>4122363041</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2975443662">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2975443662</rdfs:label>
-    <owl:hasValue>149</owl:hasValue>
-    <foaf:accountName>2975443662</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/341984923">
     <rdf:type>Person</rdf:type>
     <rdfs:label>341984923</rdfs:label>
-    <owl:hasValue>235</owl:hasValue>
+    <owl:hasValue>241</owl:hasValue>
     <foaf:accountName>341984923</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -2264,11 +2264,11 @@
     <foaf:accountName>1033318393</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4358240892">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4229365994">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>4358240892</rdfs:label>
-    <owl:hasValue>196</owl:hasValue>
-    <foaf:accountName>4358240892</foaf:accountName>
+    <rdfs:label>4229365994</rdfs:label>
+    <owl:hasValue>104</owl:hasValue>
+    <foaf:accountName>4229365994</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/480315586">
@@ -2278,18 +2278,11 @@
     <foaf:accountName>480315586</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2731155323">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3736057695">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2731155323</rdfs:label>
-    <owl:hasValue>111</owl:hasValue>
-    <foaf:accountName>2731155323</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2198549842">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2198549842</rdfs:label>
-    <owl:hasValue>110</owl:hasValue>
-    <foaf:accountName>2198549842</foaf:accountName>
+    <rdfs:label>3736057695</rdfs:label>
+    <owl:hasValue>192</owl:hasValue>
+    <foaf:accountName>3736057695</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/233665377">
@@ -2299,23 +2292,18 @@
     <foaf:accountName>233665377</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/401159219">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>401159219</rdfs:label>
-    <owl:hasValue>188</owl:hasValue>
-    <foaf:accountName>401159219</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/inDegree">
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/321396064">
     <rdf:type>Person</rdf:type>
     <rdfs:label>321396064</rdfs:label>
     <owl:hasValue>1</owl:hasValue>
     <foaf:accountName>321396064</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/4431630619">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>4431630619</rdfs:label>
+    <owl:hasValue>106</owl:hasValue>
+    <foaf:accountName>4431630619</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/120913608">
@@ -2566,6 +2554,7 @@
     <foaf:knows rdf:resource="http://sercan.com/semweb/3443274215"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/110955313"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/139068659"/>
+    <ssna:hasBetweennessCentralityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.87</ssna:hasBetweennessCentralityValue>
     <skos:related rdf:resource="http://sercan.com/semweb/715839072"/>
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/91827266"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/2794728840"/>
@@ -2616,11 +2605,11 @@
     <ssna:hasFollower rdf:resource="http://sercan.com/semweb/3290843085"/>
     <foaf:knows rdf:resource="http://sercan.com/semweb/150197066"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/99688311">
+  <rdf:Description rdf:about="http://sercan.com/semweb/484694062">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>99688311</rdfs:label>
-    <owl:hasValue>252</owl:hasValue>
-    <foaf:accountName>99688311</foaf:accountName>
+    <rdfs:label>484694062</rdfs:label>
+    <owl:hasValue>116</owl:hasValue>
+    <foaf:accountName>484694062</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2325916068">
@@ -2630,6 +2619,20 @@
     <foaf:accountName>2325916068</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/99688311">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>99688311</rdfs:label>
+    <owl:hasValue>258</owl:hasValue>
+    <foaf:accountName>99688311</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2974380226">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2974380226</rdfs:label>
+    <owl:hasValue>202</owl:hasValue>
+    <foaf:accountName>2974380226</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2468921439">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2468921439</rdfs:label>
@@ -2637,32 +2640,65 @@
     <foaf:accountName>2468921439</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/215758514">
+  <rdf:Description rdf:about="http://sercan.com/semweb/2761251066">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>215758514</rdfs:label>
-    <owl:hasValue>172</owl:hasValue>
-    <foaf:accountName>215758514</foaf:accountName>
+    <rdfs:label>2761251066</rdfs:label>
+    <owl:hasValue>180</owl:hasValue>
+    <foaf:accountName>2761251066</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2942233591">
+  <rdf:Description rdf:about="http://sercan.com/semweb/1357544258">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2942233591</rdfs:label>
-    <owl:hasValue>163</owl:hasValue>
-    <foaf:accountName>2942233591</foaf:accountName>
+    <rdfs:label>1357544258</rdfs:label>
+    <owl:hasValue>147</owl:hasValue>
+    <foaf:accountName>1357544258</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/hasHITSValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/39412458">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>39412458</rdfs:label>
+    <owl:hasValue>205</owl:hasValue>
+    <foaf:accountName>39412458</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1512854058">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1512854058</rdfs:label>
-    <owl:hasValue>213</owl:hasValue>
+    <owl:hasValue>221</owl:hasValue>
     <foaf:accountName>1512854058</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/129909263">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3010524888">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>129909263</rdfs:label>
-    <owl:hasValue>107</owl:hasValue>
-    <foaf:accountName>129909263</foaf:accountName>
+    <rdfs:label>3010524888</rdfs:label>
+    <owl:hasValue>126</owl:hasValue>
+    <foaf:accountName>3010524888</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3931671436">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3931671436</rdfs:label>
+    <owl:hasValue>167</owl:hasValue>
+    <foaf:accountName>3931671436</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/749866532">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>749866532</rdfs:label>
+    <owl:hasValue>145</owl:hasValue>
+    <foaf:accountName>749866532</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/319543975">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>319543975</rdfs:label>
+    <owl:hasValue>174</owl:hasValue>
+    <foaf:accountName>319543975</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2153035559">
@@ -2670,25 +2706,6 @@
     <rdfs:label>2153035559</rdfs:label>
     <owl:hasValue>4</owl:hasValue>
     <foaf:accountName>2153035559</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4390076537">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4390076537</rdfs:label>
-    <owl:hasValue>190</owl:hasValue>
-    <foaf:accountName>4390076537</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/outDegree">
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4466705174">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4466705174</rdfs:label>
-    <owl:hasValue>127</owl:hasValue>
-    <foaf:accountName>4466705174</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2484762526">
@@ -2701,22 +2718,43 @@
   <rdf:Description rdf:about="http://sercan.com/semweb/2346265652">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2346265652</rdfs:label>
-    <owl:hasValue>240</owl:hasValue>
+    <owl:hasValue>246</owl:hasValue>
     <foaf:accountName>2346265652</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2581021770">
+  <rdf:Description rdf:about="http://sercan.com/semweb/561304480">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2581021770</rdfs:label>
-    <owl:hasValue>230</owl:hasValue>
-    <foaf:accountName>2581021770</foaf:accountName>
+    <rdfs:label>561304480</rdfs:label>
+    <owl:hasValue>195</owl:hasValue>
+    <foaf:accountName>561304480</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/281391101">
     <rdf:type>Person</rdf:type>
     <rdfs:label>281391101</rdfs:label>
-    <owl:hasValue>237</owl:hasValue>
+    <owl:hasValue>243</owl:hasValue>
     <foaf:accountName>281391101</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2581021770">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2581021770</rdfs:label>
+    <owl:hasValue>237</owl:hasValue>
+    <foaf:accountName>2581021770</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/925084536">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>925084536</rdfs:label>
+    <owl:hasValue>194</owl:hasValue>
+    <foaf:accountName>925084536</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/823376412">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>823376412</rdfs:label>
+    <owl:hasValue>135</owl:hasValue>
+    <foaf:accountName>823376412</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2321824925">
@@ -2733,31 +2771,24 @@
     <foaf:accountName>76013467</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4003527628">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>4003527628</rdfs:label>
-    <owl:hasValue>233</owl:hasValue>
-    <foaf:accountName>4003527628</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/91650196">
     <rdf:type>Person</rdf:type>
     <rdfs:label>91650196</rdfs:label>
-    <owl:hasValue>236</owl:hasValue>
+    <owl:hasValue>242</owl:hasValue>
     <foaf:accountName>91650196</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4374621497">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4403315772">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>4374621497</rdfs:label>
-    <owl:hasValue>186</owl:hasValue>
-    <foaf:accountName>4374621497</foaf:accountName>
+    <rdfs:label>4403315772</rdfs:label>
+    <owl:hasValue>144</owl:hasValue>
+    <foaf:accountName>4403315772</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/452901760">
     <rdf:type>Person</rdf:type>
     <rdfs:label>452901760</rdfs:label>
-    <owl:hasValue>287</owl:hasValue>
+    <owl:hasValue>293</owl:hasValue>
     <foaf:accountName>452901760</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -2768,74 +2799,88 @@
     <foaf:accountName>413770944</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/1384391514">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>1384391514</rdfs:label>
+    <owl:hasValue>193</owl:hasValue>
+    <foaf:accountName>1384391514</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1647453565">
     <rdf:type>Person</rdf:type>
     <rdfs:label>1647453565</rdfs:label>
-    <owl:hasValue>248</owl:hasValue>
+    <owl:hasValue>254</owl:hasValue>
     <foaf:accountName>1647453565</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3166250860">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3166250860</rdfs:label>
-    <owl:hasValue>241</owl:hasValue>
+    <owl:hasValue>247</owl:hasValue>
     <foaf:accountName>3166250860</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4259021069">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3214535625">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>4259021069</rdfs:label>
-    <owl:hasValue>103</owl:hasValue>
-    <foaf:accountName>4259021069</foaf:accountName>
+    <rdfs:label>3214535625</rdfs:label>
+    <owl:hasValue>159</owl:hasValue>
+    <foaf:accountName>3214535625</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4118326966">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4221894433">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>4118326966</rdfs:label>
-    <owl:hasValue>221</owl:hasValue>
-    <foaf:accountName>4118326966</foaf:accountName>
+    <rdfs:label>4221894433</rdfs:label>
+    <owl:hasValue>183</owl:hasValue>
+    <foaf:accountName>4221894433</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2336534148">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2336534148</rdfs:label>
-    <owl:hasValue>294</owl:hasValue>
+    <owl:hasValue>300</owl:hasValue>
     <foaf:accountName>2336534148</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2998972899">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4118326966">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2998972899</rdfs:label>
-    <owl:hasValue>180</owl:hasValue>
-    <foaf:accountName>2998972899</foaf:accountName>
+    <rdfs:label>4118326966</rdfs:label>
+    <owl:hasValue>228</owl:hasValue>
+    <foaf:accountName>4118326966</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/2578441764">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>2578441764</rdfs:label>
+    <owl:hasValue>110</owl:hasValue>
+    <foaf:accountName>2578441764</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/967745395">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>967745395</rdfs:label>
+    <owl:hasValue>101</owl:hasValue>
+    <foaf:accountName>967745395</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3430566412">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3430566412</rdfs:label>
-    <owl:hasValue>282</owl:hasValue>
+    <owl:hasValue>288</owl:hasValue>
     <foaf:accountName>3430566412</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3146308849">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3146308849</rdfs:label>
-    <owl:hasValue>112</owl:hasValue>
-    <foaf:accountName>3146308849</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/500389608">
     <rdf:type>Person</rdf:type>
     <rdfs:label>500389608</rdfs:label>
-    <owl:hasValue>249</owl:hasValue>
+    <owl:hasValue>255</owl:hasValue>
     <foaf:accountName>500389608</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3332982027">
+  <rdf:Description rdf:about="http://sercan.com/semweb/324925496">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>3332982027</rdfs:label>
-    <owl:hasValue>106</owl:hasValue>
-    <foaf:accountName>3332982027</foaf:accountName>
+    <rdfs:label>324925496</rdfs:label>
+    <owl:hasValue>198</owl:hasValue>
+    <foaf:accountName>324925496</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/1351099244">
@@ -2845,60 +2890,79 @@
     <foaf:accountName>1351099244</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/82840491">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4383735673">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>82840491</rdfs:label>
-    <owl:hasValue>114</owl:hasValue>
-    <foaf:accountName>82840491</foaf:accountName>
+    <rdfs:label>4383735673</rdfs:label>
+    <owl:hasValue>123</owl:hasValue>
+    <foaf:accountName>4383735673</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2933151697">
+  <rdf:Description rdf:about="http://sercan.com/semweb/2894303279">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2933151697</rdfs:label>
-    <owl:hasValue>187</owl:hasValue>
-    <foaf:accountName>2933151697</foaf:accountName>
+    <rdfs:label>2894303279</rdfs:label>
+    <owl:hasValue>105</owl:hasValue>
+    <foaf:accountName>2894303279</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4395653836">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4216618348">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>4395653836</rdfs:label>
-    <owl:hasValue>170</owl:hasValue>
-    <foaf:accountName>4395653836</foaf:accountName>
+    <rdfs:label>4216618348</rdfs:label>
+    <owl:hasValue>199</owl:hasValue>
+    <foaf:accountName>4216618348</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/27360959">
+  <rdf:Description rdf:about="http://sercan.com/semweb/1653192271">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>27360959</rdfs:label>
-    <owl:hasValue>131</owl:hasValue>
-    <foaf:accountName>27360959</foaf:accountName>
+    <rdfs:label>1653192271</rdfs:label>
+    <owl:hasValue>175</owl:hasValue>
+    <foaf:accountName>1653192271</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/549367469">
+  <rdf:Description rdf:about="http://sercan.com/semweb/245192045">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>549367469</rdfs:label>
-    <owl:hasValue>104</owl:hasValue>
-    <foaf:accountName>549367469</foaf:accountName>
+    <rdfs:label>245192045</rdfs:label>
+    <owl:hasValue>120</owl:hasValue>
+    <foaf:accountName>245192045</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/hasInDegreeValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:domain rdf:resource="http://sercan.com/semweb/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/310089312">
     <rdf:type>Person</rdf:type>
     <rdfs:label>310089312</rdfs:label>
-    <owl:hasValue>224</owl:hasValue>
+    <owl:hasValue>231</owl:hasValue>
     <foaf:accountName>310089312</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2470826117">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4322585232">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2470826117</rdfs:label>
-    <owl:hasValue>152</owl:hasValue>
-    <foaf:accountName>2470826117</foaf:accountName>
+    <rdfs:label>4322585232</rdfs:label>
+    <owl:hasValue>114</owl:hasValue>
+    <foaf:accountName>4322585232</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2192718193">
+  <rdf:Description rdf:about="http://sercan.com/semweb/3236334379">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2192718193</rdfs:label>
-    <owl:hasValue>160</owl:hasValue>
-    <foaf:accountName>2192718193</foaf:accountName>
+    <rdfs:label>3236334379</rdfs:label>
+    <owl:hasValue>196</owl:hasValue>
+    <foaf:accountName>3236334379</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/4054150096">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>4054150096</rdfs:label>
+    <owl:hasValue>177</owl:hasValue>
+    <foaf:accountName>4054150096</foaf:accountName>
+    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sercan.com/semweb/3067131032">
+    <rdf:type>Person</rdf:type>
+    <rdfs:label>3067131032</rdfs:label>
+    <owl:hasValue>127</owl:hasValue>
+    <foaf:accountName>3067131032</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/456876755">
@@ -2908,17 +2972,10 @@
     <foaf:accountName>456876755</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2259905361">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>2259905361</rdfs:label>
-    <owl:hasValue>297</owl:hasValue>
-    <foaf:accountName>2259905361</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/4180741997">
     <rdf:type>Person</rdf:type>
     <rdfs:label>4180741997</rdfs:label>
-    <owl:hasValue>222</owl:hasValue>
+    <owl:hasValue>229</owl:hasValue>
     <foaf:accountName>4180741997</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
@@ -2936,18 +2993,18 @@
     <foaf:accountName>976699338</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4404787692">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4046570008">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>4404787692</rdfs:label>
-    <owl:hasValue>136</owl:hasValue>
-    <foaf:accountName>4404787692</foaf:accountName>
+    <rdfs:label>4046570008</rdfs:label>
+    <owl:hasValue>112</owl:hasValue>
+    <foaf:accountName>4046570008</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3804020539">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4175551708">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>3804020539</rdfs:label>
-    <owl:hasValue>218</owl:hasValue>
-    <foaf:accountName>3804020539</foaf:accountName>
+    <rdfs:label>4175551708</rdfs:label>
+    <owl:hasValue>162</owl:hasValue>
+    <foaf:accountName>4175551708</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/168056719">
@@ -2957,18 +3014,11 @@
     <foaf:accountName>168056719</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1607110843">
+  <rdf:Description rdf:about="http://sercan.com/semweb/2265356065">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>1607110843</rdfs:label>
-    <owl:hasValue>147</owl:hasValue>
-    <foaf:accountName>1607110843</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/1008294541">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>1008294541</rdfs:label>
-    <owl:hasValue>63</owl:hasValue>
-    <foaf:accountName>1008294541</foaf:accountName>
+    <rdfs:label>2265356065</rdfs:label>
+    <owl:hasValue>187</owl:hasValue>
+    <foaf:accountName>2265356065</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/283214435">
@@ -2978,53 +3028,46 @@
     <foaf:accountName>283214435</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2843817819">
+  <rdf:Description rdf:about="http://sercan.com/semweb/1008294541">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2843817819</rdfs:label>
-    <owl:hasValue>139</owl:hasValue>
-    <foaf:accountName>2843817819</foaf:accountName>
+    <rdfs:label>1008294541</rdfs:label>
+    <owl:hasValue>63</owl:hasValue>
+    <foaf:accountName>1008294541</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/3366652893">
     <rdf:type>Person</rdf:type>
     <rdfs:label>3366652893</rdfs:label>
-    <owl:hasValue>281</owl:hasValue>
+    <owl:hasValue>287</owl:hasValue>
     <foaf:accountName>3366652893</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/20793123">
+  <rdf:Description rdf:about="http://sercan.com/semweb/2856980616">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>20793123</rdfs:label>
-    <owl:hasValue>159</owl:hasValue>
-    <foaf:accountName>20793123</foaf:accountName>
-    <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/3061679679">
-    <rdf:type>Person</rdf:type>
-    <rdfs:label>3061679679</rdfs:label>
-    <owl:hasValue>167</owl:hasValue>
-    <foaf:accountName>3061679679</foaf:accountName>
+    <rdfs:label>2856980616</rdfs:label>
+    <owl:hasValue>118</owl:hasValue>
+    <foaf:accountName>2856980616</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/2543789822">
     <rdf:type>Person</rdf:type>
     <rdfs:label>2543789822</rdfs:label>
-    <owl:hasValue>283</owl:hasValue>
+    <owl:hasValue>289</owl:hasValue>
     <foaf:accountName>2543789822</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/2929616692">
+  <rdf:Description rdf:about="http://sercan.com/semweb/319286051">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>2929616692</rdfs:label>
-    <owl:hasValue>300</owl:hasValue>
-    <foaf:accountName>2929616692</foaf:accountName>
+    <rdfs:label>319286051</rdfs:label>
+    <owl:hasValue>207</owl:hasValue>
+    <foaf:accountName>319286051</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/4372059797">
+  <rdf:Description rdf:about="http://sercan.com/semweb/4321115058">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>4372059797</rdfs:label>
-    <owl:hasValue>177</owl:hasValue>
-    <foaf:accountName>4372059797</foaf:accountName>
+    <rdfs:label>4321115058</rdfs:label>
+    <owl:hasValue>181</owl:hasValue>
+    <foaf:accountName>4321115058</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://sercan.com/semweb/64139547">
@@ -3034,11 +3077,11 @@
     <foaf:accountName>64139547</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://sercan.com/semweb/263248550">
+  <rdf:Description rdf:about="http://sercan.com/semweb/984442290">
     <rdf:type>Person</rdf:type>
-    <rdfs:label>263248550</rdfs:label>
-    <owl:hasValue>200</owl:hasValue>
-    <foaf:accountName>263248550</foaf:accountName>
+    <rdfs:label>984442290</rdfs:label>
+    <owl:hasValue>190</owl:hasValue>
+    <foaf:accountName>984442290</foaf:accountName>
     <rdf:type rdf:resource="http://sercan.com/semweb/Person"/>
   </rdf:Description>
 </rdf:RDF>
