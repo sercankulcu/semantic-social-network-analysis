@@ -15,6 +15,7 @@ import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.QueryFactory;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
+import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.sparql.vocabulary.FOAF;
@@ -107,58 +108,91 @@ public class JenaInterface {
 		from.addProperty(FOAF.knows, to);
 		from.addProperty(SKOS.related, to);
 		from.addProperty(hasFollower, to);
-		//from.addProperty(hasBetweennessCentralityValue, "0.87");
-		
-		from.addLiteral(hasBetweennessCentralityValue, 0.87);
 	}
 	
-	public void calculateInDegree(String id) {
-		
-		String queryString = 
+	public void addLiteralBetweenness(Resource res, double value) {
+
+		res.addLiteral(hasBetweennessCentralityValue, value);
+	}
+	
+	public void addLiteralCloseness(Resource res, double value) {
+
+		res.addLiteral(hasClosenessCentralityValue, value);
+	}
+	
+	public void addLiteralEigenvector(Resource res, double value) {
+
+		res.addLiteral(hasEigenvectorCentralityValue, value);
+	}
+	
+	public void addLiteralDistance(Resource res, double value) {
+
+		res.addLiteral(hasDistanceCentralityValue, value);
+	}
+	
+	public void addLiteralPageRank(Resource res, double value) {
+
+		res.addLiteral(hasPageRankValue, value);
+	}
+	
+	public void addLiteralBary(Resource res, double value) {
+
+		res.addLiteral(hasBaryCentralityValue, value);
+	}
+	
+	public void addLiteralHits(Resource res, double value) {
+
+		res.addLiteral(hasHITSValue, value);
+	}
+	
+	public void addLiteralDegree(Resource res, int value) {
+
+		res.addLiteral(hasDegreeValue, value);
+	}
+	
+	public void calculateInOutDegree(String inout, String id, Resource res) {
+			
+		String queryString = null;
+		if(inout.startsWith("in")) {
+			queryString = 
 				"PREFIX ssna: <http://sercan.com/semweb/>" + 
-					"SELECT ( COUNT (?subject) AS ?howmany ) WHERE { ?subject ssna:hasFollower ssna:" +  id + " }";
+				"SELECT ( COUNT (?subject) AS ?howmany ) " + 
+				"WHERE { ?subject ssna:hasFollower ssna:" +  id + " }";
+		}
+		else {
+			queryString = 
+				"PREFIX ssna: <http://sercan.com/semweb/>" + 
+				"SELECT ( COUNT (?object) AS ?howmany ) " + 
+				"WHERE { ssna:"+ id + " ssna:hasFollower ?object }";
+		}
 		
+		//System.out.println(queryString);
 		Query query = QueryFactory.create(queryString);
 		QueryExecution qexec = QueryExecutionFactory.create(query, model);
 
 		try {
 
 			ResultSet results = qexec.execSelect();
+			
 		    for (; results.hasNext();) {
 		        QuerySolution s = results.nextSolution();
-		        System.out.println(s.toString());
+		        Literal howmany = ((Literal) s.get("howmany"));
+		        //System.out.println(s.toString() + howmany.getInt());
+		        if(inout.startsWith("in")) {
+			    	res.addLiteral(hasInDegreeValue, howmany.getInt());
+			    }
+			    else {
+			    	res.addLiteral(hasOutDegreeValue, howmany.getInt());
+			    }
 		    }
+		    
 		}
 		finally {
 
 		   qexec.close();
 		}
-		
 	}
 	
-	public void calculateOutDegree(String id) {
-		
-		String queryString = 
-				"PREFIX ssna: <http://sercan.com/semweb/>" + 
-					"SELECT ( COUNT (?object) AS ?howmany ) WHERE { "+ id + " ssna:hasFollower ?object }";
-		
-		Query query = QueryFactory.create(queryString);
-		QueryExecution qexec = QueryExecutionFactory.create(query, model);
-
-		try {
-
-			ResultSet results = qexec.execSelect();
-		    for (; results.hasNext();) {
-		        QuerySolution s = results.nextSolution();
-		        System.out.println(s.toString());
-		    }
-		}
-		finally {
-
-		   qexec.close();
-		}
-	}
-
 	public void save() {
 
 		FileOutputStream out = null;

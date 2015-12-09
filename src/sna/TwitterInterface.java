@@ -112,14 +112,14 @@ public class TwitterInterface {
 						jenaInt.addPropertyToRDF(res, res2);
 						nodes.add(followerID[index]);
 						resources.add(res2);
-						edgesfrom.add(Long.valueOf(0));
-						edgesto.add(Long.valueOf(index));
+						edgesfrom.add(nodes.get(0));
+						edgesto.add(nodes.get(index));
 					}
 					// jena interface add resource userid, id , property userid->id 
 				}
 				
 				int cyclelimit = index;
-				for(int cycle = 1; cycle < 4; cycle++)
+				for(int cycle = 1; cycle < cyclelimit; cycle++)
 				{
 
 					int count = 0;
@@ -143,10 +143,10 @@ public class TwitterInterface {
 
 								nodes.add(followerID[index2]);
 								resources.add(res2);
-								edgesfrom.add(Long.valueOf(cycle));
-								edgesto.add(Long.valueOf(index));
+								edgesfrom.add(nodes.get(cycle));
+								edgesto.add(nodes.get(index));
 								// jena interface add resource userid, id , property userid->id
-								
+												
 								if (count++ > 100) {
 									
 									index2 = followerID.length;
@@ -155,8 +155,8 @@ public class TwitterInterface {
 							else {
 							
 								jenaInt.addPropertyToRDF(resources.get(cycle), resources.get(result));
-								edgesfrom.add(Long.valueOf(cycle));
-								edgesto.add(Long.valueOf(result));
+								edgesfrom.add(nodes.get(cycle));
+								edgesto.add(nodes.get(result));
 							}
 							
 							
@@ -169,34 +169,17 @@ public class TwitterInterface {
 						//System.exit(-1);
 					}
 					
-					/*
+					
 					try {
 						Thread.sleep(60000);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-					*/
+					
 					jenaInt.save();
 				}
-				/*
-				for(int cycle = 25; cycle < 35; cycle++)
-				{
 
-					edgesfrom.add(2);
-					edgesto.add(cycle);
-					edgesfrom.add(5);
-					edgesto.add(cycle);
-					edgesfrom.add(7);
-					edgesto.add(cycle);
-					edgesfrom.add(12);
-					edgesto.add(cycle);
-					edgesfrom.add(22);
-					edgesto.add(cycle);
-					edgesfrom.add(25);
-					edgesto.add(cycle);
-				}
-				 */
 				jenaInt.save();
 
 				/*JSON*/
@@ -213,9 +196,6 @@ public class TwitterInterface {
 						
 						writer.write("{id: " + i + ",label: '" + nodes.get(i) + "'},\n");
 						g.addVertex(nodes.get(i));
-						//System.out.println("first vertex count " + g.getVertexCount() + " node size " + nodes.size() + " edgesfrom size " + edgesfrom.size());
-						//jenaInt.calculateInDegree(Long.toString(nodes.get(i)));
-
 					}
 					if(nodes.size() > 0)
 						writer.write("{id: " + i + ",label: '" + nodes.get(i) + "'}\n");
@@ -232,82 +212,65 @@ public class TwitterInterface {
 					writer.write("];" + "\n");
 
 				} catch (IOException ex) {
+					
 					System.out.println("error file");
 				} finally {
 					try {writer.close();} catch (Exception ex) {/*ignore*/}
 				}
 				
-				System.out.println("first vertex count " + g.getVertexCount() + " node size " + nodes.size() + " edgesfrom size " + edgesfrom.size());
+				for(int i = 0; i < nodes.size(); i++) {
+					
+					jenaInt.calculateInOutDegree("in", Long.toString(nodes.get(i)), resources.get(i));
+					jenaInt.calculateInOutDegree("out", Long.toString(nodes.get(i)), resources.get(i));
+				}
 				
 				BetweennessCentrality<Long, Integer> bc = new BetweennessCentrality<Long, Integer>(g);
 				for (Long v : g.getVertices()) {
-					if(bc.getVertexScore(v) > 0)
-						System.out.println("BetweennessCentrality for\t" + v + "\t" + bc.getVertexScore(v));
+					jenaInt.addLiteralBetweenness(resources.get(getIndex(v)), bc.getVertexScore(v));
 				}
-				
-				System.out.println("beetween vertex count " + g.getVertexCount());
 				
 				ClosenessCentrality<Long, Integer> cc = new ClosenessCentrality<Long, Integer>(g);
 				for (Long v : g.getVertices()) {
-					if(cc.getVertexScore(v) > 0)
-						System.out.println("ClosenessCentrality for\t" + v + "\t" + cc.getVertexScore(v));
+					jenaInt.addLiteralCloseness(resources.get(getIndex(v)), cc.getVertexScore(v));
 				}
 				
-				System.out.println("closeness vertex count " + g.getVertexCount());
-				
 				EigenvectorCentrality<Long, Integer> ec = new EigenvectorCentrality<Long, Integer>(g);
-				//ec.initialize();
 				ec.acceptDisconnectedGraph(true);
 				ec.evaluate();
 				for (Long v : g.getVertices()) {
-					if(ec.getVertexScore(v) > 0.0005)
-						System.out.println("EigenvectorCentrality for\t" + v + "\t" + ec.getVertexScore(v));
+					jenaInt.addLiteralEigenvector(resources.get(getIndex(v)), ec.getVertexScore(v));
 				}
-				
-				System.out.println("eigenve vertex count " + g.getVertexCount());
-				
 				
 				PageRank<Long, Integer> pr = new PageRank<Long, Integer>(g, 0.8);
 				pr.evaluate();
 				for (Long v : g.getVertices()) {
-					if(pr.getVertexScore(v) > 0)
-						System.out.println("PageRank for\t" + v + "\t" + pr.getVertexScore(v));
+					jenaInt.addLiteralPageRank(resources.get(getIndex(v)), pr.getVertexScore(v));
 				}
 				
 				BarycenterScorer<Long, Integer> bs = new BarycenterScorer<Long, Integer>(g);
 				for (Long v : g.getVertices()) {
-					if(bs.getVertexScore(v) > 0)
-						System.out.println("BarycenterScorer for\t" + v + "\t" + bs.getVertexScore(v));
+					jenaInt.addLiteralBary(resources.get(getIndex(v)), bs.getVertexScore(v));
 				}
-				
 				
 				DegreeScorer<Long> ds = new DegreeScorer<Long>(g);
 				for (Long v : g.getVertices()) {
-					if(ds.getVertexScore(v) > 1)
-						System.out.println("DegreeScorer for\t" + v + "\t" + ds.getVertexScore(v));
+					jenaInt.addLiteralDegree(resources.get(getIndex(v)), ds.getVertexScore(v));
 				}
-				
-				System.out.println("degre vertex count " + g.getVertexCount());
 				
 				DistanceCentralityScorer<Long, Integer> dcs = new DistanceCentralityScorer<Long, Integer>(g, false);
 				for (Long v : g.getVertices()) {
-					if(dcs.getVertexScore(v) < 1)
-						System.out.println("DistanceCentralityScorer for\t" + v + "\t" + dcs.getVertexScore(v));
+					jenaInt.addLiteralDistance(resources.get(getIndex(v)), dcs.getVertexScore(v));
 				}
-				
-				System.out.println("distance vertex count " + g.getVertexCount());
 				
 				HITS<Long, Integer> hits = new HITS<Long, Integer>(g);
 				hits.initialize();
-				hits.evaluate();
-				
+				hits.evaluate();				
 				for (Long v : g.getVertices()) {
 					Scores s = hits.getVertexScore(v);	
-					if(s.hub > 0.0029)
-						System.out.println("hits for\t" + v + "\t" + s.hub);
+					jenaInt.addLiteralHits(resources.get(getIndex(v)), s.hub);
 				}
 				
-				System.out.println("hits vertex count " + g.getVertexCount());
+				jenaInt.save();
 
 			} while (/*(cursor = ids.getNextCursor()) != 0*/ false);
 
