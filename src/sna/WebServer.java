@@ -31,11 +31,16 @@ public class WebServer extends AbstractHandler {
 			String userid = request.getParameter("text");
 			response.getWriter().println(userid + "");
 			
-			TwitterInterface twitterInt = new TwitterInterface(userid);
+/*			TwitterInterface twitterInt = new TwitterInterface(userid);
 			twitterInt.getFollowers();
-		
+	*/	
+			
+			TwitterInterface twitterInt = new TwitterInterface(userid);
+			twitterInt.test();
+			
+			
 			response.getWriter().println("<script type=\"text/javascript\" src=\"files/dist/vis.js\"></script>");		//algorithm
-			response.getWriter().println("<script type=\"text/javascript\" src=\"files/dist/network.js\"></script>");	//data
+			response.getWriter().println("<script type=\"text/javascript\" src=\"files/dist/network2.js\"></script>");	//data
 			response.getWriter().println("<link href=\"files/dist/vis.css\" rel=\"stylesheet\" type=\"text/css\" />");
 			response.getWriter().println("<style type=\"text/css\"> #mynetwork { width: 1200px;  height: 700px;  border: 1px solid lightgray;} </style>");
 			response.getWriter().println("<div id=\"mynetwork\"></div>");
