@@ -25,14 +25,11 @@ import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.SKOS;
 import org.apache.jena.vocabulary.XSD;
 
-import edu.uci.ics.jung.algorithms.scoring.BarycenterScorer;
-import edu.uci.ics.jung.algorithms.scoring.ClosenessCentrality;
-import edu.uci.ics.jung.algorithms.scoring.DegreeScorer;
-import edu.uci.ics.jung.algorithms.scoring.DistanceCentralityScorer;
-import edu.uci.ics.jung.algorithms.scoring.EigenvectorCentrality;
-import edu.uci.ics.jung.algorithms.scoring.HITS;
-import edu.uci.ics.jung.algorithms.scoring.PageRank;
-import edu.uci.ics.jung.algorithms.scoring.HITS.Scores;
+/*
+ * Handles Jena operations
+ * 
+ * 
+ * */
 
 public class JenaInterface {
 
@@ -90,6 +87,9 @@ public class JenaInterface {
 		
 	}
 
+	/*
+	 * creates individual given id and add properties to created individual
+	 * */
 	public Resource addResourceToRDF(String id) {
 
 		OntClass node = model.getOntClass( NS + "Person" );
@@ -103,6 +103,9 @@ public class JenaInterface {
 		return temp;
 	}
 
+	/*
+	 *  add knows property to given resource
+	 * */
 	public void addPropertyToRDF(Resource from, Resource to) {
 
 		from.addProperty(FOAF.knows, to);
@@ -150,6 +153,10 @@ public class JenaInterface {
 		res.addLiteral(hasDegreeValue, value);
 	}
 	
+	/*
+	 * calculates in and out defrees of given resource
+	 * 
+	 * */
 	public void calculateInOutDegree(String inout, String id, Resource res) {
 			
 		String queryString = null;
@@ -175,9 +182,10 @@ public class JenaInterface {
 			ResultSet results = qexec.execSelect();
 			
 		    for (; results.hasNext();) {
-		        QuerySolution s = results.nextSolution();
+
+		    	QuerySolution s = results.nextSolution();
 		        Literal howmany = ((Literal) s.get("howmany"));
-		        //System.out.println(s.toString() + howmany.getInt());
+
 		        if(inout.startsWith("in")) {
 			    	res.addLiteral(hasInDegreeValue, howmany.getInt());
 			    }
@@ -193,6 +201,9 @@ public class JenaInterface {
 		}
 	}
 	
+	/*
+	 * save created model into a rdf file
+	 * */
 	public void save() {
 
 		FileOutputStream out = null;
