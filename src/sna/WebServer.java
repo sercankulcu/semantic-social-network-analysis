@@ -36,6 +36,7 @@ public class WebServer extends AbstractHandler {
 			
 			TwitterInterface twitterInt = new TwitterInterface(userid);
 			twitterInt.getFollowers();
+			twitterInt.clustering();
 	
 			/*
 			TwitterInterface twitterInt = new TwitterInterface(userid);
